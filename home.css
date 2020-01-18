@@ -1,0 +1,236 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    body,
+    html {
+        height: 100%;
+        width: 100%;
+        background-color: #3d4160;
+        overflow: hidden;
+        margin: 0;
+    }
+
+    .home-header-contents {
+        position: relative;
+        width: 100%;
+        height: 185px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-logo {
+        position: relative;
+        top: -15px;
+        cursor: pointer;
+        height: 70px;
+        width: 85px;
+    }
+
+    .sub-blurb {
+        font: lighter 0.9em "Source Sans Pro", sans-serif;
+        position: absolute;
+        top: 90px;
+        color: #fff;
+        opacity: 0.7;
+        letter-spacing: 0.8px;
+    }
+
+
+    ul.home-nav {
+        font: lighter 1.5em "Source Sans Pro", sans-serif;
+        position: absolute;
+        list-style: none;
+        bottom: 0;
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+
+    li {
+        display: inline-block;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .register-btn {
+        font: 800 1.1em "Source Sans Pro", sans-serif;
+        background: #ff9843;
+        position: absolute;
+        top: 620px;
+        right: 10px;
+        width: 45%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        border-radius: 5px;
+        z-index: 1;
+        cursor: pointer;
+        transition: 0.1s;
+
+
+    }
+
+    .log-in {
+        font: 800 1.1em "Source Sans Pro", sans-serif;
+        background: #ff9843;
+        position: absolute;
+        left: 10px;
+        top: 620px;
+        width: 45%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.1s;
+        z-index: 1;
+
+
+    }
+
+
+    .socials-box {
+        position: absolute;
+        height: 50px;
+        width: 95px;
+        top: 0;
+        border-top-right-radius: 15px;
+        z-index: 100;
+    }
+
+    .fa-facebook-f {
+        position: relative;
+        font-size: 1.5em;
+        left: 15px;
+        top: 10px;
+        color: #ff9843;
+        cursor: pointer;
+        z-index: 100;
+        transition: 0.1s;
+    }
+
+    .fa-linkedin-in {
+        position: absolute;
+        font-size: 1.5em;
+        left: 40px;
+        top: 12px;
+        color: #ff9843;
+        cursor: pointer;
+        z-index: 100;
+        transition: 0.1s;
+    }
+
+    /*--------MAIN SERVICES--------*/
+
+    #main-services-wrap {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    p.choose-service-text {
+        position: absolute;
+        font: bold 1.7em "Source Sans Pro", sans-serif;
+        top: -20px;
+        color: #ff9843;
+        letter-spacing: 0.5px;
+        display: none;
+
+    }
+
+    .card-wrap {
+        position: relative;
+        height: 700px;
+        width: 375px;
+        background-color: #fff;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        top: 0;
+    }
+
+    #home-card {
+        background: #ff9843;
+        position: absolute;
+        height: 150px;
+        width: 130px;
+        border-radius: 5px;
+        top: 50px;
+        left: 50px;
+        display: flex;
+        justify-content: center;
+        transition: 0.1s;
+    }
+
+    .home-card-title {
+        font: 700 1.5em "Source Sans Pro", sans-serif;
+        position: absolute;
+        bottom: 43px;
+        color: #3d4160;
+        margin: 0;
+    }
+
+    .home-icon,
+    .office-icon,
+    .party-icon,
+    .general-icon {
+        position: absolute;
+        top: 25px;
+        height: 50px;
+    }
+
+    #home-info-btn {
+        font: 1.8em "Charm", cursive;
+        position: absolute;
+        margin: 0;
+        bottom: 0;
+        color: #3d4160;
+        align-items: center;
+        justify-content: center;
+        animation-duration: 2s;
+        transition: 2s;
+        display: block;
+        z-index: 1;
+    }
+
+    .info-icon {
+        height: 20px;
+      }
+
+      #office-tech-card {
+        position: absolute;
+        height: 150px;
+        width: 130px;
+        border-radius: 5px;
+        border: 1px solid #ff9843;
+        top: 50px;
+        right: 50px;
+        display: flex;
+        justify-content: center;
+        transition: 0.1s;
+      }
+
+      .office-card-title {
+        font: 700 1.5em "Source Sans Pro", sans-serif;
+        position: absolute;
+        bottom: 55px;
+        color: #ff9843;
+        margin: 0;
+      }
+      
+
+
+      
+
+
+      
+
+}
