@@ -151,10 +151,9 @@
         position: relative;
         height: 700px;
         width: 375px;
-        background-color: #fff;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
-        top: 0;
+        top: -30px;
     }
 
     #home-card {
@@ -171,7 +170,7 @@
     }
 
     .home-card-title {
-        font: 700 1.5em "Source Sans Pro", sans-serif;
+        font: 700 1.4em "Source Sans Pro", sans-serif;
         position: absolute;
         bottom: 43px;
         color: #3d4160;
@@ -203,9 +202,9 @@
 
     .info-icon {
         height: 20px;
-      }
+    }
 
-      #office-tech-card {
+    #office-tech-card {
         position: absolute;
         height: 150px;
         width: 130px;
@@ -216,21 +215,106 @@
         display: flex;
         justify-content: center;
         transition: 0.1s;
-      }
+    }
 
-      .office-card-title {
-        font: 700 1.5em "Source Sans Pro", sans-serif;
+    .office-card-title {
+        font: 700 1.4em "Source Sans Pro", sans-serif;
         position: absolute;
-        bottom: 55px;
+        bottom: 43px;
         color: #ff9843;
         margin: 0;
+    }
+
+    #office-info-btn {
+        font: 1.8em "Charm", cursive;
+        position: absolute;
+        margin: 0;
+        bottom: 0;
+        color: #ff9843;
+        transition: 0.4s;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+
+    }
+
+    #after-party-card {
+        background: #3d4160;
+        position: absolute;
+        height: 150px;
+        width: 130px;
+        border-radius: 5px;
+        border: 1px solid #ff9843;
+        top: 213px;
+        left: 50px;
+        display: flex;
+        justify-content: center;
+        transition: 0.1s;
+    }
+
+    .after-party-title {
+        font: 700 1.4em "Source Sans Pro", sans-serif;
+        position: absolute;
+        bottom: 43px;
+        color: #ff9843;
+        margin: 0;
+    }
+
+    #party-info-btn {
+        font: 1.8em "Charm", cursive;
+        position: absolute;
+        margin: 0;
+        bottom: 0;
+        color: #ff9843;
+        transition: 0.4s;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    #general-card {
+        background: #ff9843;
+        position: absolute;
+        height: 150px;
+        width: 130px;
+        border-radius: 5px;
+        top: 213px;
+        right: 50px;
+        display: flex;
+        justify-content: center;
+        transition: 0.1s;
       }
       
+      .general-title {
+        font: 700 1.4em "Source Sans Pro", sans-serif;
+        position: absolute;
+        bottom: 43px;
+        color: #3d4160;
+        margin: 0;
+      }
 
+      #general-info-btn {
+        font: 1.8em "Charm", cursive;
+        position: absolute;
+        margin: 0;
+        bottom: 10px;
+        color: #3d4160;
+        transition: 0.4s;
+        align-items: center;
+        justify-content: center;
+        bottom: 0;
 
+      }
+      
       
 
 
-      
+
+
+
+
+
+
+
 
 }
