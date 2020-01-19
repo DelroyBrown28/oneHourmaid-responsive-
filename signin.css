@@ -1,0 +1,181 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    body,
+    html {
+        height: 100%;
+        width: 100%;
+        background-color: #3d4160;
+        overflow: hidden;
+        margin: 0;
+    }
+
+    .home-header-contents {
+        position: relative;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-logo {
+        position: relative;
+        top: 10px;
+        cursor: pointer;
+        height: 70px;
+        width: 85px;
+    }
+
+    .sub-blurb {
+        font: lighter 0.8em "Source Sans Pro", sans-serif;
+        position: absolute;
+        top: 67px;
+        color: #fff;
+        opacity: 0.7;
+        letter-spacing: 0.8px;
+    }
+
+
+    ul.home-nav {
+        font: lighter 1.5em "Source Sans Pro", sans-serif;
+        position: absolute;
+        list-style: none;
+        bottom: 0;
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+
+    li {
+        display: inline-block;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .btn-wrap-desktop {
+        display: none;
+    }
+
+    .signin-box-wrap {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    input[type=text] {
+        position: absolute;
+        top: 130px;
+        width: 206px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid #ff9843;
+        padding-bottom: 5px;
+        text-align: center;
+        color: #FFC136;
+    }
+
+    input[type=password] {
+        position: absolute;
+        top: 190px;
+        width: 206px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid #ff9843;
+        padding-bottom: 5px;
+        text-align: center;
+        color: #FFC136;
+    }
+
+
+
+    ::-webkit-input-placeholder {
+        color: #ff9843;
+        opacity: 0.8;
+        text-align: center;
+        font: lighter 1.5em "Source Sans Pro", sans-serif;
+    }
+
+    :-ms-input-placeholder {
+        color: #ff9843;
+        opacity: 0.8;
+        text-align: center;
+        font: lighter 1.5em "Source Sans Pro", sans-serif;
+    }
+
+    ::placeholder {
+        color: #ff9843;
+        opacity: 0.8;
+        text-align: center;
+        font: lighter 1.5em "Source Sans Pro", sans-serif;
+    }
+
+    .forgotPW-text {
+        position: absolute;
+        top: 210px;
+        left: auto;
+        font: lighter 0.7em "Source Sans Pro", sans-serif;
+        color: #fff;
+
+
+    }
+
+    .pw-us-orange {
+        color: #ff9843;
+    }
+
+    .signin-btn {
+        position: absolute;
+        height: 45px;
+        width: 135px;
+        top: 275px;
+        background-color: #ff9843;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font: bold 1.2em "Source Sans Pro", sans-serif;
+        border-radius: 5px;
+    }
+
+
+    /*--------HOVERS etc--------*/
+
+
+
+    .username:focus,
+    .password:focus {
+        outline: none;
+
+    }
+
+    .signin-btn:hover {
+        background-color: #FFC136;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
