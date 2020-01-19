@@ -368,7 +368,6 @@
 
 }
 
-
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
@@ -826,7 +825,6 @@
 
 
 }
-
 
 /* iPad Pro (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 1024px) {
