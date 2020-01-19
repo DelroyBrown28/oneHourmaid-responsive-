@@ -68,7 +68,8 @@
         position: absolute;
         right: 0;
         width: 50%;
-        height: 40px;
+        height: 65px;
+        bottom: 0;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -87,7 +88,7 @@
         left: 0;
         bottom: 0;
         width: 50%;
-        height: 40px;
+        height: 65px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -164,7 +165,8 @@
     }
 
     #home-card {
-        background: #ff9843;
+        background: #3d4160;
+        border: 1px solid #ff9843;
         position: absolute;
         height: 150px;
         width: 130px;
@@ -188,7 +190,7 @@
         font: normal 1.4em "Source Sans Pro", sans-serif;
         position: absolute;
         bottom: 43px;
-        color: #3d4160;
+        color: #ff9843;
         margin: 0;
     }
 
@@ -305,7 +307,8 @@
     }
 
     #general-card {
-        background: #ff9843;
+        background: #3d4160;
+        border: 1px solid #ff9843;
         position: absolute;
         height: 150px;
         width: 130px;
@@ -330,7 +333,7 @@
         font: normal 1.4em "Source Sans Pro", sans-serif;
         position: absolute;
         bottom: 43px;
-        color: #3d4160;
+        color: #ff9843;
         margin: 0;
     }
 
@@ -537,7 +540,8 @@
     }
 
     #home-card {
-        background: #ff9843;
+        background: #3d4160;
+        border: 1px solid #ff9843;
         position: absolute;
         height: 200px;
         width: 160px;
@@ -579,6 +583,10 @@
         margin: 0;
 
 
+    }
+
+    .home-card-title {
+        color: #ff9843;
     }
 
 
@@ -705,7 +713,8 @@
     }
 
     #general-card {
-        background: #ff9843;
+        background: #3d4160;
+        border: 1px solid #ff9843;
         position: absolute;
         height: 200px;
         width: 160px;
@@ -727,7 +736,7 @@
 
 
     .general-title {
-        color: #3d4160;
+        color: #ff9843;
         margin: 0;
     }
 
@@ -781,33 +790,6 @@
     #general-info-btn:hover #general-info-box {
         display: block;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
@@ -983,7 +965,6 @@
     #office-tech-card,
     #after-party-card,
     #general-card {
-        background: #ff9843;
         position: absolute;
         height: 230px;
         width: 190px;
@@ -1003,14 +984,12 @@
 
 
     #home-card {
-        background: #ff9843;
+        background: #3d4160;
+        border: 1px solid #ff9843;
         top: 0;
         left: 0;
 
     }
-
-
-
 
     #home-info-box {
         position: absolute;
@@ -1032,7 +1011,10 @@
         color: #3d4160;
         margin: 0;
 
+    }
 
+    .home-card-title {
+        color: #ff9843;
     }
 
 
@@ -1131,16 +1113,16 @@
     }
 
     #general-card {
+        background-color: #3d4160;
+        border: 1px solid #ff9843;
         bottom: 0;
         right: 0;
         top: 260px;
 
-
     }
 
-
     .general-title {
-        color: #3d4160;
+        color: #ff9843;
         margin: 0;
     }
 
@@ -1159,9 +1141,6 @@
         right: -220px;
         display: none;
     }
-
-
-
 
 
     /*------HOVERS etc--------*/
@@ -1194,34 +1173,6 @@
     #general-info-btn:hover #general-info-box {
         display: block;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
@@ -1334,12 +1285,12 @@
         justify-content: center;
         font: bold 1.4em "Source Sans Pro", sans-serif;
         box-shadow:
-        0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-        0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-        0 12.5px 10px rgba(0, 0, 0, 0.035),
-        0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-        0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-        0 100px 80px rgba(0, 0, 0, 0.07);
+            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+            0 12.5px 10px rgba(0, 0, 0, 0.035),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+            0 100px 80px rgba(0, 0, 0, 0.07);
 
 
     }
@@ -1389,9 +1340,7 @@
         transition: 0.1s;
         display: none;
 
-
     }
-
 
     .socials-box {
         position: absolute;
@@ -1456,14 +1405,14 @@
         top: 30px;
     }
 
-    #home-card {
-        border: 1px solid #ff9843;
+    #home-card,
+    #office-tech-card,
+    #after-party-card,
+    #general-card {
         position: absolute;
         height: 200px;
         width: 170px;
         border-radius: 5px;
-        top: 0;
-        left: 50px;
         display: flex;
         justify-content: center;
         transition: 0.1s;
@@ -1475,6 +1424,14 @@
             0 22.3px 17.9px rgba(0, 0, 0, 0.042),
             0 41.8px 33.4px rgba(0, 0, 0, 0.05),
             0 100px 80px rgba(0, 0, 0, 0.07);
+    }
+
+
+    #home-card {
+        background-color: #3d4160;
+        border: 1px solid #ff9843;
+        top: 0;
+        left: 50px;
     }
 
     #home-info-box {
@@ -1491,7 +1448,7 @@
         font: normal 2em "Source Sans Pro", sans-serif;
         position: absolute;
         bottom: 55px;
-        color: #3d4160;
+        color: #ff9843;
         margin: 0;
     }
 
@@ -1522,25 +1479,10 @@
     }
 
     #office-tech-card {
-        position: absolute;
-        height: 200px;
-        width: 170px;
         background: #3d4160;
         border: 1px solid #ff9843;
-        border-radius: 5px;
         top: 0;
         right: 50px;
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
-        transition: 0.1s;
-        box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-            0 12.5px 10px rgba(0, 0, 0, 0.035),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-            0 100px 80px rgba(0, 0, 0, 0.07);
 
     }
 
@@ -1578,24 +1520,9 @@
 
     #after-party-card {
         background: #3d4160;
-        position: absolute;
-        height: 200px;
-        width: 170px;
-        border-radius: 5px;
         border: 1px solid #ff9843;
         top: 213px;
         left: 50px;
-        cursor: pointer;
-        display: flex;
-        justify-content: center;
-        transition: 0.1s;
-        box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-            0 12.5px 10px rgba(0, 0, 0, 0.035),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-            0 100px 80px rgba(0, 0, 0, 0.07);
 
     }
 
@@ -1631,33 +1558,18 @@
     }
 
     #general-card {
-        background: #ff9843;
-        position: absolute;
-        height: 200px;
-        width: 170px;
-        border-radius: 5px;
-        cursor: pointer;
+        background: #3d4160;
+        border: 1px solid #ff9843;
         top: 213px;
         right: 50px;
-        display: flex;
-        justify-content: center;
-        transition: 0.1s;
-        box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-            0 12.5px 10px rgba(0, 0, 0, 0.035),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-            0 100px 80px rgba(0, 0, 0, 0.07);
 
     }
-
 
     .general-title {
         font: normal 1.9em "Source Sans Pro", sans-serif;
         position: absolute;
         bottom: 55px;
-        color: #3d4160;
+        color: #ff9843;
         margin: 0;
     }
 
@@ -1690,8 +1602,21 @@
     #after-party-card:hover,
     #home-card:hover,
     #office-tech-card:hover {
-        box-shadow: none;
+        border: 1px solid #FFC136;
     }
+
+    #general-card:active,
+    #after-party-card:active,
+    #home-card:active,
+    #office-tech-card:active {
+        -webkit-box-shadow: inset 0px 0px 5px 8px rgba(0, 0, 0, 0.12);
+        -moz-box-shadow: inset 0px 0px 5px 8px rgba(0, 0, 0, 0.12);
+        box-shadow: inset 0px 0px 5px 8px rgba(0, 0, 0, 0.12);
+        border: 1px solid #ff9843;
+    }
+
+
+
 
     .register-btn:hover,
     .sign-in:hover {
