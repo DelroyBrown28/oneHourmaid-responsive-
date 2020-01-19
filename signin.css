@@ -619,17 +619,6 @@
 
     }
 
-    .signin-desktop:hover {
-        border: 2px solid #FFC136;
-    }
-
-    .signin-desktop:active {
-        border: 2px solid #ff9843;
-        box-shadow: none;
-    }
-
-
-
 
     .signin-box-wrap {
         position: absolute;
@@ -739,6 +728,19 @@
     .creatAcount-text:hover {
         color: #FFC136;
     }
+
+    .signin-desktop:hover {
+        border: 2px solid #FFC136;
+    }
+
+    .signin-desktop:active {
+        border: 2px solid #ff9843;
+        box-shadow: none;
+    }
+
+
+
+
 
 
 
