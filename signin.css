@@ -165,33 +165,11 @@
     .signin-btn:hover {
         background-color: #FFC136;
     }
-    
+
 
     .creatAcount-text:hover {
         color: #FFC136;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
@@ -365,33 +343,11 @@
     .signin-btn:hover {
         background-color: #FFC136;
     }
-    
+
 
     .creatAcount-text:hover {
         color: #FFC136;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
@@ -563,32 +519,11 @@
     .signin-btn:hover {
         background-color: #FFC136;
     }
-    
+
 
     .creatAcount-text:hover {
         color: #FFC136;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
@@ -602,6 +537,7 @@
         background-color: #3d4160;
         overflow: hidden;
         margin: 0;
+
     }
 
     .home-header-contents {
@@ -648,8 +584,52 @@
     }
 
     .btn-wrap-desktop {
-        display: block;
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        bottom: 300px;
+        display: flex;
+        justify-content: center;
+
     }
+
+    .signin-desktop {
+        position: absolute;
+        color: #fff;
+        font: lighter 1.4em "Source Sans Pro", sans-serif;
+        top: 0;
+        right: 675px;
+        height: 45px;
+        width: 30%;
+        background-color: #3d4160;
+        border: 2px solid #ff9843;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        transition: 0.1s;
+        box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+            0 12.5px 10px rgba(0, 0, 0, 0.035),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+            0 100px 80px rgba(0, 0, 0, 0.07);
+
+    }
+
+    .signin-desktop:hover {
+        border: 2px solid #FFC136;
+    }
+
+    .signin-desktop:active {
+        border: 2px solid #ff9843;
+        box-shadow: none;
+    }
+
+
+
 
     .signin-box-wrap {
         position: absolute;
@@ -672,6 +652,7 @@
         padding-bottom: 5px;
         text-align: center;
         color: #FFC136;
+
     }
 
     input[type=password] {
@@ -710,6 +691,8 @@
         font: lighter 2em "Source Sans Pro", sans-serif;
     }
 
+
+
     .forgotPW-text {
         position: relative;
         bottom: -20px;
@@ -724,17 +707,6 @@
     }
 
     .signin-btn {
-        position: absolute;
-        height: 110px;
-        width: 100%;
-        bottom: 0;
-        right: 0;
-        background-color: #ff9843;
-        color: #fff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font: bold 2em "Source Sans Pro", sans-serif;
         display: none;
 
     }
@@ -762,7 +734,7 @@
     .signin-btn:hover {
         background-color: #FFC136;
     }
-    
+
 
     .creatAcount-text:hover {
         color: #FFC136;

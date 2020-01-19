@@ -82,7 +82,7 @@
 
     .sign-in {
         font: bold 1.1em "Source Sans Pro", sans-serif;
-        background-color: #FFC136;
+        background-color: #ff9843;
         position: absolute;
         left: 0;
         bottom: 0;
@@ -366,6 +366,8 @@
     }
 
 
+
+
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -527,21 +529,21 @@
 
     .card-wrap {
         position: relative;
-        height: 700px;
-        width: 375px;
+        height: 680px;
+        width: 350px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
-        top: -30px;
+        bottom: 100px;
     }
 
     #home-card {
         background: #ff9843;
         position: absolute;
-        height: 150px;
-        width: 130px;
+        height: 200px;
+        width: 160px;
         border-radius: 5px;
-        top: 50px;
-        left: 50px;
+        top: 00px;
+        left: 00px;
         display: flex;
         justify-content: center;
         transition: 0.1s;
@@ -555,6 +557,7 @@
 
     }
 
+
     #home-info-box {
         position: absolute;
         height: 200px;
@@ -565,51 +568,64 @@
         display: none;
     }
 
-
-    .home-card-title {
-        font: normal 1.4em "Source Sans Pro", sans-serif;
+    .home-card-title,
+    .office-card-title,
+    .after-party-title,
+    .general-title {
+        font: normal 2em "Source Sans Pro", sans-serif;
         position: absolute;
-        bottom: 43px;
+        bottom: 60px;
         color: #3d4160;
         margin: 0;
+
+
     }
+
 
     .home-icon,
     .office-icon,
     .party-icon,
     .general-icon {
         position: absolute;
-        top: 25px;
-        height: 50px;
+        top: 30px;
+        height: 65px;
     }
 
-    #home-info-btn {
+    #home-info-btn,
+    #office-info-btn,
+    #party-info-btn,
+    #general-info-btn {
         font: 1.8em "Charm", cursive;
         position: absolute;
         margin: 0;
-        bottom: 0;
+        bottom: 10px;
         color: #3d4160;
         align-items: center;
         justify-content: center;
         animation-duration: 2s;
-        transition: 2s;
-        display: block;
-        z-index: 1;
+        transition: 0.4s;
+        z-index: 100;
+
+
+    }
+
+    #home-info-btn {
+        color: #3d4160;
     }
 
     .info-icon {
-        height: 20px;
+        height: 25px;
     }
 
     #office-tech-card {
         position: absolute;
-        height: 150px;
-        width: 130px;
+        height: 200px;
+        width: 160px;
         background: #3d4160;
         border-radius: 5px;
         border: 1px solid #ff9843;
-        top: 50px;
-        right: 50px;
+        top: 0;
+        right: 0;
         display: flex;
         justify-content: center;
         transition: 0.1s;
@@ -635,35 +651,24 @@
 
 
     .office-card-title {
-        font: normal 1.4em "Source Sans Pro", sans-serif;
-        position: absolute;
-        bottom: 43px;
+        bottom: 60px;
         color: #ff9843;
-        margin: 0;
     }
 
     #office-info-btn {
-        font: 1.8em "Charm", cursive;
-        position: absolute;
-        margin: 0;
-        bottom: 0;
         color: #ff9843;
-        transition: 0.4s;
-        align-items: center;
-        justify-content: center;
-        z-index: 100;
 
     }
 
     #after-party-card {
         background: #3d4160;
         position: absolute;
-        height: 150px;
-        width: 130px;
+        height: 200px;
+        width: 160px;
         border-radius: 5px;
         border: 1px solid #ff9843;
-        top: 213px;
-        left: 50px;
+        top: 230px;
+        left: 0;
         display: flex;
         justify-content: center;
         transition: 0.1s;
@@ -689,33 +694,24 @@
 
 
     .after-party-title {
-        font: normal 1.4em "Source Sans Pro", sans-serif;
-        position: absolute;
-        bottom: 43px;
+        bottom: 60px;
         color: #ff9843;
         margin: 0;
     }
 
     #party-info-btn {
-        font: 1.8em "Charm", cursive;
-        position: absolute;
-        margin: 0;
-        bottom: 0;
         color: #ff9843;
-        transition: 0.4s;
-        align-items: center;
-        justify-content: center;
 
     }
 
     #general-card {
         background: #ff9843;
         position: absolute;
-        height: 150px;
-        width: 130px;
+        height: 200px;
+        width: 160px;
         border-radius: 5px;
-        top: 213px;
-        right: 50px;
+        top: 230px;
+        right: 0;
         display: flex;
         justify-content: center;
         transition: 0.1s;
@@ -731,23 +727,13 @@
 
 
     .general-title {
-        font: normal 1.4em "Source Sans Pro", sans-serif;
-        position: absolute;
-        bottom: 43px;
         color: #3d4160;
         margin: 0;
     }
 
     #general-info-btn {
-        font: 1.8em "Charm", cursive;
-        position: absolute;
-        margin: 0;
-        bottom: 10px;
         color: #3d4160;
         transition: 0.4s;
-        align-items: center;
-        justify-content: center;
-        bottom: 0;
 
     }
 
@@ -986,20 +972,22 @@
     .card-wrap {
         position: relative;
         height: 800px;
-        width: 475px;
+        width: 430px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
-        top: -30px;
+        bottom: 100px;
     }
 
-    #home-card {
+
+    #home-card,
+    #office-tech-card,
+    #after-party-card,
+    #general-card {
         background: #ff9843;
         position: absolute;
-        height: 200px;
-        width: 170px;
+        height: 230px;
+        width: 190px;
         border-radius: 5px;
-        top: 0;
-        left: 50px;
         display: flex;
         justify-content: center;
         transition: 0.1s;
@@ -1013,34 +1001,55 @@
 
     }
 
+
+    #home-card {
+        background: #ff9843;
+        top: 0;
+        left: 0;
+
+    }
+
+
+
+
     #home-info-box {
         position: absolute;
         height: 200px;
         width: 600px;
         border: 2px solid #ff9843;
-        top: -400px;
-        right: -390px;
+        top: -325px;
+        right: -365px;
         display: none;
     }
 
-    .home-card-title {
+    .home-card-title,
+    .office-card-title,
+    .after-party-title,
+    .general-title {
         font: normal 2em "Source Sans Pro", sans-serif;
         position: absolute;
-        bottom: 55px;
+        bottom: 60px;
         color: #3d4160;
         margin: 0;
+
+
     }
+
 
     .home-icon,
     .office-icon,
     .party-icon,
     .general-icon {
         position: absolute;
-        top: 35px;
+        top: 30px;
         height: 65px;
     }
 
-    #home-info-btn {
+    #home-info-btn,
+    #office-info-btn,
+    #party-info-btn,
+    #general-info-btn {
+        font: 1.8em "Charm", cursive;
         position: absolute;
         margin: 0;
         bottom: 10px;
@@ -1048,9 +1057,14 @@
         align-items: center;
         justify-content: center;
         animation-duration: 2s;
-        transition: 2s;
-        display: block;
-        z-index: 1;
+        transition: 0.4s;
+        z-index: 100;
+
+
+    }
+
+    #home-info-btn {
+        color: #3d4160;
     }
 
     .info-icon {
@@ -1058,24 +1072,10 @@
     }
 
     #office-tech-card {
-        position: absolute;
-        height: 200px;
-        width: 170px;
         background: #3d4160;
-        border-radius: 5px;
         border: 1px solid #ff9843;
         top: 0;
-        right: 50px;
-        display: flex;
-        justify-content: center;
-        transition: 0.1s;
-        box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-            0 12.5px 10px rgba(0, 0, 0, 0.035),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-            0 100px 80px rgba(0, 0, 0, 0.07);
+        right: 0;
 
     }
 
@@ -1084,137 +1084,84 @@
         height: 200px;
         width: 600px;
         border: 2px solid #ff9843;
-        top: -400px;
-        right: -190px;
+        top: -320px;
+        right: -220px;
         display: none;
     }
 
 
     .office-card-title {
-        font: normal 1.9em "Source Sans Pro", sans-serif;
-        position: absolute;
-        bottom: 55px;
+        bottom: 60px;
         color: #ff9843;
-        margin: 0;
     }
 
     #office-info-btn {
-        font: 1.8em "Charm", cursive;
-        position: absolute;
-        margin: 0;
-        bottom: 10px;
         color: #ff9843;
-        transition: 0.4s;
-        align-items: center;
-        justify-content: center;
-        z-index: 100;
 
     }
 
     #after-party-card {
         background: #3d4160;
-        position: absolute;
-        height: 200px;
-        width: 170px;
-        border-radius: 5px;
         border: 1px solid #ff9843;
-        top: 213px;
-        left: 50px;
-        display: flex;
-        justify-content: center;
-        transition: 0.1s;
-        box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-            0 12.5px 10px rgba(0, 0, 0, 0.035),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-            0 100px 80px rgba(0, 0, 0, 0.07);
+        top: 260px;
+        left: 0;
 
     }
 
     #party-info-box {
         position: absolute;
-        height: 200px;
+        height: 180px;
         width: 600px;
         border: 2px solid #ff9843;
-        top: -615px;
-        right: -390px;
+        top: -480px;
+        right: -365px;
         display: none;
     }
 
 
     .after-party-title {
-        font: normal 1.9em "Source Sans Pro", sans-serif;
-        position: absolute;
-        bottom: 55px;
+        bottom: 60px;
         color: #ff9843;
         margin: 0;
     }
 
     #party-info-btn {
-        font: 1.8em "Charm", cursive;
-        position: absolute;
-        margin: 0;
-        bottom: 10px;
         color: #ff9843;
-        transition: 0.4s;
-        align-items: center;
-        justify-content: center;
 
     }
 
     #general-card {
-        background: #ff9843;
-        position: absolute;
-        height: 200px;
-        width: 170px;
-        border-radius: 5px;
-        top: 213px;
-        right: 50px;
-        display: flex;
-        justify-content: center;
-        transition: 0.1s;
-        box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-            0 12.5px 10px rgba(0, 0, 0, 0.035),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-            0 100px 80px rgba(0, 0, 0, 0.07);
+        bottom: 0;
+        right: 0;
+        top: 260px;
+
 
     }
 
 
     .general-title {
-        font: normal 1.9em "Source Sans Pro", sans-serif;
-        position: absolute;
-        bottom: 55px;
         color: #3d4160;
         margin: 0;
     }
 
     #general-info-btn {
-        font: 1.8em "Charm", cursive;
-        position: absolute;
-        margin: 0;
-        bottom: 10px;
         color: #3d4160;
         transition: 0.4s;
-        align-items: center;
-        justify-content: center;
 
     }
 
     #general-info-box {
         position: absolute;
-        height: 200px;
+        height: 180px;
         width: 600px;
         border: 2px solid #ff9843;
-        top: -615px;
-        right: -190px;
+        top: -480px;
+        right: -220px;
         display: none;
     }
+
+
+
 
 
     /*------HOVERS etc--------*/
@@ -1247,6 +1194,12 @@
     #general-info-btn:hover #general-info-box {
         display: block;
     }
+
+
+
+
+
+
 
 
 
@@ -1350,20 +1303,19 @@
         top: 0;
         height: 45px;
         width: 120px;
-        background-color: #FFC136;
-        border-radius: 5px;
+        border: 2px solid #FFC136;
+        background-color: #3d4160;
+        border-radius: 3px;
         display: flex;
         align-items: center;
         justify-content: center;
-
         box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.07),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.05),
-            0 12.5px 10px rgba(0, 0, 0, 0.042),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.035),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.028),
-            0 100px 80px rgba(0, 0, 0, 0.02);
-
+            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+            0 12.5px 10px rgba(0, 0, 0, 0.035),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+            0 100px 80px rgba(0, 0, 0, 0.07);
 
     }
 
@@ -1372,13 +1324,23 @@
         height: 47px;
         width: 120px;
         right: 0;
-        background-color: #ff9843;
-        border-radius: 5px;
+        border: 2px solid #ff9843;
+        background-color: #3d4160;
+        border-radius: 3px;
         color: #fff;
+        z-index: 1;
         display: flex;
         align-items: center;
         justify-content: center;
         font: bold 1.4em "Source Sans Pro", sans-serif;
+        box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        0 12.5px 10px rgba(0, 0, 0, 0.035),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        0 100px 80px rgba(0, 0, 0, 0.07);
+
 
     }
 
@@ -1404,7 +1366,6 @@
         align-items: center;
         justify-content: center;
         color: #fff;
-        z-index: 1;
         cursor: pointer;
         transition: 0.1s;
         display: none;
@@ -1426,7 +1387,6 @@
         color: #fff;
         cursor: pointer;
         transition: 0.1s;
-        z-index: 1;
         display: none;
 
 
@@ -1497,7 +1457,7 @@
     }
 
     #home-card {
-        background: #ff9843;
+        border: 1px solid #ff9843;
         position: absolute;
         height: 200px;
         width: 170px;
@@ -1565,8 +1525,8 @@
         height: 200px;
         width: 170px;
         background: #3d4160;
-        border-radius: 5px;
         border: 1px solid #ff9843;
+        border-radius: 5px;
         top: 0;
         right: 50px;
         display: flex;
@@ -1752,24 +1712,20 @@
     }
 
     .signin-desktop:hover {
-        background-color: #ff9843;
+        border: 2px solid #ff9843;
     }
 
     .signin-desktop:active {
-        -webkit-box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.58);
-        -moz-box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.58);
-        box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.58);
+        box-shadow: none;
 
     }
 
     .register-btn-desktop:hover {
-        background-color: #FFC136;
+        border: 2px solid #FFC136;
     }
 
     .register-btn-desktop:active {
-        -webkit-box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.58);
-        -moz-box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.58);
-        box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.58);
+        box-shadow: none;
 
     }
 
