@@ -161,7 +161,7 @@
         width: 375px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
-        top: -30px;
+        top: -60px;
     }
 
     #home-card {
@@ -954,7 +954,7 @@
     .card-wrap {
         position: relative;
         height: 800px;
-        width: 430px;
+        width: 470px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         bottom: 100px;
@@ -966,8 +966,8 @@
     #after-party-card,
     #general-card {
         position: absolute;
-        height: 230px;
-        width: 190px;
+        height: 270px;
+        width: 220px;
         border-radius: 5px;
         display: flex;
         justify-content: center;
@@ -986,7 +986,7 @@
     #home-card {
         background: #3d4160;
         border: 1px solid #ff9843;
-        top: 0;
+        top: -30px;
         left: 0;
 
     }
@@ -1007,7 +1007,7 @@
     .general-title {
         font: normal 2em "Source Sans Pro", sans-serif;
         position: absolute;
-        bottom: 60px;
+        bottom: 85px;
         color: #3d4160;
         margin: 0;
 
@@ -1023,8 +1023,8 @@
     .party-icon,
     .general-icon {
         position: absolute;
-        top: 30px;
-        height: 65px;
+        top: 50px;
+        height: 83px;
     }
 
     #home-info-btn,
@@ -1034,7 +1034,7 @@
         font: 1.8em "Charm", cursive;
         position: absolute;
         margin: 0;
-        bottom: 10px;
+        bottom: 30px;
         color: #3d4160;
         align-items: center;
         justify-content: center;
@@ -1050,13 +1050,13 @@
     }
 
     .info-icon {
-        height: 25px;
+        height: 30px;
     }
 
     #office-tech-card {
         background: #3d4160;
         border: 1px solid #ff9843;
-        top: 0;
+        top: -30px;
         right: 0;
 
     }
@@ -1073,7 +1073,6 @@
 
 
     .office-card-title {
-        bottom: 60px;
         color: #ff9843;
     }
 
@@ -1102,7 +1101,6 @@
 
 
     .after-party-title {
-        bottom: 60px;
         color: #ff9843;
         margin: 0;
     }
@@ -1115,7 +1113,7 @@
     #general-card {
         background-color: #3d4160;
         border: 1px solid #ff9843;
-        bottom: 0;
+        top: 0;
         right: 0;
         top: 260px;
 
