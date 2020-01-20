@@ -1373,12 +1373,61 @@
 
     #home-info-box {
         position: absolute;
-        height: 200px;
-        width: 600px;
-        border: 2px solid #ff9843;
-        top: -400px;
-        right: -390px;
-        display: none;
+        width: 480px;
+        height: 250px;
+        background-color: #2d3046;
+        border: none;
+        top: -95px;
+        left: -590px;
+        display: blocknone;
+        box-shadow:
+        0 11px 8.7px rgba(0, 0, 0, 0.13),
+        0 26.5px 20.9px rgba(0, 0, 0, 0.095),
+        0 49.8px 39.3px rgba(0, 0, 0, 0.086),
+        0 88.9px 70.1px rgba(0, 0, 0, 0.073),
+        0 166.3px 131.2px rgba(0, 0, 0, 0.055),
+        0 398px 314px rgba(0, 0, 0, 0.03)
+      ;
+    }
+
+    .homeService-infoBox-title {
+        position: absolute;
+        margin-left: 45px;
+        top: 25px;
+        color: #ff9843;
+        text-transform: uppercase;
+        letter-spacing: 11px;
+        font: bolder 0.8em "Source Sans Pro", sans-serif;
+
+
+    }
+
+    .home-InfoBoxBlurb {
+        position: absolute;
+        top: 87px;
+        width: 400px;
+        margin-left: 45px;
+        font: lighter 0.8em "Source Sans Pro", sans-serif;
+        color: #ff9843;
+
+
+    }
+
+    .sidebar {
+        position: relative;
+        height: 250px;
+        width: 10px;
+        background-color: #ff9843;
+        float: right;
+    }
+
+    .linebar {
+        position: absolute;
+        width: 60%;
+        height: 1px;
+        background-color: #ff9843;
+        top: 95px;
+        left: 45px;
     }
 
     .home-card-title {
