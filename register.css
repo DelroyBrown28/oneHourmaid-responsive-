@@ -1,3 +1,5 @@
+
+/* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
     body,
@@ -133,19 +135,23 @@
         position: absolute;
         height: 170px;
         width: 60%;
-        bottom: 0;
+        bottom: -15px;
         display: flex;
         justify-content: center;
     }
 
     .register-btn {
+        display: none;
+    }
+
+    .register-btn-mobile {
         position: absolute;
-        height: 50px;
+        height: 40px;
         width: 100%;
         border-radius: 3px;
         background-color: #3d4160;
         border: 1px solid #ff9843;
-        font: lighter 1.1em "Source Sans Pro", sans-serif;
+        font: lighter 0.9em "Source Sans Pro", sans-serif;
         color: #fff;
         display: flex;
         align-items: center;
@@ -160,7 +166,6 @@
             0 41.8px 33.4px rgba(0, 0, 0, 0.05),
             0 100px 80px rgba(0, 0, 0, 0.07);
 
-
     }
 
     .register-btn:hover {
@@ -170,12 +175,12 @@
 
     .google-btn {
         position: absolute;
-        height: 50px;
+        height: 40px;
         width: 100%;
         top: 60px;
         border-radius: 3px;
         background-color: #fff;
-        font: lighter 1em "Source Sans Pro", sans-serif;
+        font: bold 0.9em "Source Sans Pro", sans-serif;
         color: #000;
         display: flex;
         align-items: center;
@@ -189,9 +194,18 @@
         left: -10px;
     }
 
+    .google-btn:hover {
+        background-color: rgb(226, 226, 226);
+    }
+
+    .google-btn:active {
+        background-color: #fff;
+    }
+
 
 }
 
+/* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
     body,
@@ -332,12 +346,7 @@
         justify-content: center;
     }
 
-    .register-btn {
-        display: none;
-
-    }
-
-    .register-btn-ipad {
+    .register-btn-mobile {
         position: absolute;
         height: 50px;
         width: 100%;
@@ -361,6 +370,13 @@
 
 
     }
+
+
+    .register-btn {
+        display: none;
+
+    }
+
 
 
     .register-btn:hover {
@@ -537,7 +553,7 @@
 
     }
 
-    .register-btn-ipad {
+    .register-btn-mobile {
         position: absolute;
         height: 50px;
         width: 100%;
@@ -766,7 +782,7 @@
 
     }
 
-    .register-btn-ipad {
+    .register-btn-mobile {
         display: none;
 
     }
