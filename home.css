@@ -62,7 +62,7 @@
         margin: 0;
     }
 
-    .register-btn {
+    #register-btn {
         font: bold 1.1em "Source Sans Pro", sans-serif;
         background: #ff9843;
         position: absolute;
@@ -81,7 +81,7 @@
 
     }
 
-    .sign-in {
+    #sign-in {
         font: bold 1.1em "Source Sans Pro", sans-serif;
         background-color: #ff9843;
         position: absolute;
@@ -364,7 +364,7 @@
 
 
     .register-btn:hover,
-    .sign-in:hover {
+    #sign-in:hover {
         background-color: #FFC136;
     }
 
@@ -456,7 +456,7 @@
 
     }
 
-    .sign-in {
+    #sign-in {
         font: bold 1.5em "Source Sans Pro", sans-serif;
         background: #ff9843;
         position: absolute;
@@ -770,7 +770,7 @@
     }
 
     .register-btn:hover,
-    .sign-in:hover {
+    #sign-in:hover {
         background-color: #FFC136;
     }
 
@@ -877,7 +877,7 @@
 
     }
 
-    .sign-in {
+    #sign-in {
         font: bold 1.5em "Source Sans Pro", sans-serif;
         background: #ff9843;
         position: absolute;
@@ -1151,7 +1151,7 @@
     }
 
     .register-btn:hover,
-    .sign-in:hover {
+    #sign-in:hover {
         background-color: #FFC136;
     }
 
@@ -1302,7 +1302,7 @@
 
     }
 
-    .sign-in {
+    #sign-in {
         display: none;
 
     }
@@ -1557,7 +1557,7 @@
 
 
     .register-btn:hover,
-    .sign-in:hover {
+    #sign-in:hover {
         background-color: #FFC136;
     }
 
