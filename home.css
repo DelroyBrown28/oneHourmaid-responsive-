@@ -1,1715 +1,1568 @@
 /* Smartphones (portrait and landscape) ----------- */
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-
     body,
     html {
-        height: 100%;
-        width: 100%;
-        background-color: #3d4160;
-        overflow: hidden;
-        margin: 0;
-
+      height: 100%;
+      width: 100%;
+      background-color: #3d4160;
+      overflow: hidden;
+      margin: 0;
     }
-
+  
     #office-info-box,
     #home-info-box,
     .btn-wrap-desktop {
-        display: none;
+      display: none;
     }
-
+  
     .home-header-contents {
-        position: relative;
-        width: 100%;
-        height: 185px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      position: relative;
+      width: 100%;
+      height: 185px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-
+  
     .home-logo {
-        position: relative;
-        top: 0;
-        cursor: pointer;
-        height: 70px;
-        width: 85px;
+      position: relative;
+      top: 0;
+      cursor: pointer;
+      height: 70px;
+      width: 85px;
     }
-
+  
     .sub-blurb {
-        font: lighter 0.8em "Source Sans Pro", sans-serif;
-        position: absolute;
-        top: 100px;
-        color: #fff;
-        opacity: 0.7;
-        letter-spacing: 0.8px;
+      font: lighter 0.8em "Source Sans Pro", sans-serif;
+      position: absolute;
+      top: 100px;
+      color: #fff;
+      opacity: 0.7;
+      letter-spacing: 0.8px;
     }
-
-
+  
     ul.home-nav {
-        font: lighter 1.5em "Source Sans Pro", sans-serif;
-        position: absolute;
-        list-style: none;
-        bottom: 0;
-        margin: 0;
-        padding: 0;
-        display: none;
+      font: lighter 1.5em "Source Sans Pro", sans-serif;
+      position: absolute;
+      list-style: none;
+      bottom: 0;
+      margin: 0;
+      padding: 0;
+      display: none;
     }
-
+  
     li {
-        display: inline-block;
-        color: #fff;
-        cursor: pointer;
+      display: inline-block;
+      color: #fff;
+      cursor: pointer;
     }
-
+  
     .btn-wrap {
-        position: absolute;
-        bottom: 0;
-        z-index: 1000;
-        width: 100%;
-        height: 40px;
-        margin: 0;
+      position: absolute;
+      bottom: 0;
+      z-index: 1000;
+      width: 100%;
+      height: 40px;
+      margin: 0;
     }
-
+  
     #register-btn {
-        font: bold 1.1em "Source Sans Pro", sans-serif;
-        background: #ff9843;
-        position: absolute;
-        right: 0;
-        width: 50%;
-        height: 65px;
-        bottom: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #fff;
-        z-index: 1;
-        cursor: pointer;
-        transition: 0.1s;
-
-
+      font: bold 1.1em "Source Sans Pro", sans-serif;
+      background: #ff9843;
+      position: absolute;
+      right: 0;
+      width: 50%;
+      height: 65px;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      z-index: 1;
+      cursor: pointer;
+      transition: 0.1s;
     }
-
+  
     #sign-in {
-        font: bold 1.1em "Source Sans Pro", sans-serif;
-        background-color: #ff9843;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 50%;
-        height: 65px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #fff;
-        cursor: pointer;
-        transition: 0.1s;
-        z-index: 1;
-
-
+      font: bold 1.1em "Source Sans Pro", sans-serif;
+      background-color: #ff9843;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 50%;
+      height: 65px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      cursor: pointer;
+      transition: 0.1s;
+      z-index: 1;
     }
-
-
+  
     .socials-box {
-        position: absolute;
-        height: 50px;
-        width: 95px;
-        top: 0;
-        border-top-right-radius: 15px;
-        z-index: 100;
-        display: none;
+      position: absolute;
+      height: 50px;
+      width: 95px;
+      top: 0;
+      border-top-right-radius: 15px;
+      z-index: 100;
+      display: none;
     }
-
+  
     .fa-facebook-f {
-        position: relative;
-        font-size: 1.5em;
-        left: 15px;
-        top: 10px;
-        color: #ff9843;
-        cursor: pointer;
-        z-index: 100;
-        transition: 0.1s;
+      position: relative;
+      font-size: 1.5em;
+      left: 15px;
+      top: 10px;
+      color: #ff9843;
+      cursor: pointer;
+      z-index: 100;
+      transition: 0.1s;
     }
-
+  
     .fa-linkedin-in {
-        position: absolute;
-        font-size: 1.5em;
-        left: 40px;
-        top: 12px;
-        color: #ff9843;
-        cursor: pointer;
-        z-index: 100;
-        transition: 0.1s;
+      position: absolute;
+      font-size: 1.5em;
+      left: 40px;
+      top: 12px;
+      color: #ff9843;
+      cursor: pointer;
+      z-index: 100;
+      transition: 0.1s;
     }
-
+  
     /*--------MAIN SERVICES--------*/
-
+  
     #main-services-wrap {
-        position: relative;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
+      position: relative;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-
+  
     p.choose-service-text {
-        position: absolute;
-        font: bold 1.7em "Source Sans Pro", sans-serif;
-        top: -20px;
-        color: #ff9843;
-        letter-spacing: 0.5px;
-        display: none;
-
+      position: absolute;
+      font: bold 1.7em "Source Sans Pro", sans-serif;
+      top: -20px;
+      color: #ff9843;
+      letter-spacing: 0.5px;
+      display: none;
     }
-
+  
     .card-wrap {
-        position: relative;
-        height: 700px;
-        width: 375px;
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-        top: -60px;
+      position: relative;
+      height: 700px;
+      width: 375px;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      top: -60px;
     }
-
+  
     #home-card {
-        background: #3d4160;
-        border: 1px solid #ff9843;
-        position: absolute;
-        height: 150px;
-        width: 130px;
-        border-radius: 5px;
-        top: 50px;
-        left: 50px;
-        display: flex;
-        justify-content: center;
-        transition: 0.1s;
-        box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-            0 12.5px 10px rgba(0, 0, 0, 0.035),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-            0 100px 80px rgba(0, 0, 0, 0.07);
-
+      background: #3d4160;
+      border: 1px solid #ff9843;
+      position: absolute;
+      height: 150px;
+      width: 130px;
+      border-radius: 5px;
+      top: 50px;
+      left: 50px;
+      display: flex;
+      justify-content: center;
+      transition: 0.1s;
+      box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+              0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+              0 12.5px 10px rgba(0, 0, 0, 0.035),
+              0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+              0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+              0 100px 80px rgba(0, 0, 0, 0.07);
     }
-
+  
     .home-card-title {
-        font: normal 1.4em "Source Sans Pro", sans-serif;
-        position: absolute;
-        bottom: 43px;
-        color: #ff9843;
-        margin: 0;
+      font: normal 1.4em "Source Sans Pro", sans-serif;
+      position: absolute;
+      bottom: 43px;
+      color: #ff9843;
+      margin: 0;
     }
-
+  
     .home-icon,
     .office-icon,
     .party-icon,
     .general-icon {
-        position: absolute;
-        top: 25px;
-        height: 50px;
+      position: absolute;
+      top: 25px;
+      height: 50px;
     }
-
+  
     #home-info-btn {
-        font: 1.8em "Charm", cursive;
-        position: absolute;
-        margin: 0;
-        bottom: 0;
-        color: #3d4160;
-        align-items: center;
-        justify-content: center;
-        animation-duration: 2s;
-        transition: 2s;
-        display: block;
-        z-index: 100;
+      font: 1.8em "Charm", cursive;
+      position: absolute;
+      margin: 0;
+      bottom: 0;
+      color: #3d4160;
+      align-items: center;
+      justify-content: center;
+      animation-duration: 2s;
+      transition: 2s;
+      display: block;
+      z-index: 100;
     }
-
+  
     .info-icon {
-        height: 20px;
+      height: 20px;
     }
-
+  
     #office-tech-card {
-        position: absolute;
-        height: 150px;
-        width: 130px;
-        background: #3d4160;
-        border-radius: 5px;
-        border: 1px solid #ff9843;
-        top: 50px;
-        right: 50px;
-        display: flex;
-        justify-content: center;
-        transition: 0.1s;
-        box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-            0 12.5px 10px rgba(0, 0, 0, 0.035),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-            0 100px 80px rgba(0, 0, 0, 0.07);
-
+      position: absolute;
+      height: 150px;
+      width: 130px;
+      background: #3d4160;
+      border-radius: 5px;
+      border: 1px solid #ff9843;
+      top: 50px;
+      right: 50px;
+      display: flex;
+      justify-content: center;
+      transition: 0.1s;
+      box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+              0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+              0 12.5px 10px rgba(0, 0, 0, 0.035),
+              0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+              0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+              0 100px 80px rgba(0, 0, 0, 0.07);
     }
-
+  
     .office-card-title {
-        font: normal 1.4em "Source Sans Pro", sans-serif;
-        position: absolute;
-        bottom: 43px;
-        color: #ff9843;
-        margin: 0;
+      font: normal 1.4em "Source Sans Pro", sans-serif;
+      position: absolute;
+      bottom: 43px;
+      color: #ff9843;
+      margin: 0;
     }
-
+  
     #office-info-btn {
-        font: 1.8em "Charm", cursive;
-        position: absolute;
-        margin: 0;
-        bottom: 0;
-        color: #ff9843;
-        transition: 0.4s;
-        align-items: center;
-        justify-content: center;
-        z-index: 100;
-
+      font: 1.8em "Charm", cursive;
+      position: absolute;
+      margin: 0;
+      bottom: 0;
+      color: #ff9843;
+      transition: 0.4s;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
     }
-
+  
     #after-party-card {
-        background: #3d4160;
-        position: absolute;
-        height: 150px;
-        width: 130px;
-        border-radius: 5px;
-        border: 1px solid #ff9843;
-        top: 213px;
-        left: 50px;
-        display: flex;
-        justify-content: center;
-        transition: 0.1s;
-        box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-            0 12.5px 10px rgba(0, 0, 0, 0.035),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-            0 100px 80px rgba(0, 0, 0, 0.07);
-
+      background: #3d4160;
+      position: absolute;
+      height: 150px;
+      width: 130px;
+      border-radius: 5px;
+      border: 1px solid #ff9843;
+      top: 213px;
+      left: 50px;
+      display: flex;
+      justify-content: center;
+      transition: 0.1s;
+      box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+              0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+              0 12.5px 10px rgba(0, 0, 0, 0.035),
+              0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+              0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+              0 100px 80px rgba(0, 0, 0, 0.07);
     }
-
+  
     .after-party-title {
-        font: normal 1.4em "Source Sans Pro", sans-serif;
-        position: absolute;
-        bottom: 43px;
-        color: #ff9843;
-        margin: 0;
+      font: normal 1.4em "Source Sans Pro", sans-serif;
+      position: absolute;
+      bottom: 43px;
+      color: #ff9843;
+      margin: 0;
     }
-
+  
     #party-info-btn {
-        font: 1.8em "Charm", cursive;
-        position: absolute;
-        margin: 0;
-        bottom: 0;
-        color: #ff9843;
-        transition: 0.4s;
-        align-items: center;
-        justify-content: center;
-
+      font: 1.8em "Charm", cursive;
+      position: absolute;
+      margin: 0;
+      bottom: 0;
+      color: #ff9843;
+      transition: 0.4s;
+      align-items: center;
+      justify-content: center;
     }
-
+  
     #general-card {
-        background: #3d4160;
-        border: 1px solid #ff9843;
-        position: absolute;
-        height: 150px;
-        width: 130px;
-        border-radius: 5px;
-        top: 213px;
-        right: 50px;
-        display: flex;
-        justify-content: center;
-        transition: 0.1s;
-        box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-            0 12.5px 10px rgba(0, 0, 0, 0.035),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-            0 100px 80px rgba(0, 0, 0, 0.07);
-
+      background: #3d4160;
+      border: 1px solid #ff9843;
+      position: absolute;
+      height: 150px;
+      width: 130px;
+      border-radius: 5px;
+      top: 213px;
+      right: 50px;
+      display: flex;
+      justify-content: center;
+      transition: 0.1s;
+      box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+              0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+              0 12.5px 10px rgba(0, 0, 0, 0.035),
+              0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+              0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+              0 100px 80px rgba(0, 0, 0, 0.07);
     }
-
-
+  
     .general-title {
-        font: normal 1.4em "Source Sans Pro", sans-serif;
-        position: absolute;
-        bottom: 43px;
-        color: #ff9843;
-        margin: 0;
+      font: normal 1.4em "Source Sans Pro", sans-serif;
+      position: absolute;
+      bottom: 43px;
+      color: #ff9843;
+      margin: 0;
     }
-
+  
     #general-info-btn {
-        font: 1.8em "Charm", cursive;
-        position: absolute;
-        margin: 0;
-        bottom: 10px;
-        color: #3d4160;
-        transition: 0.4s;
-        align-items: center;
-        justify-content: center;
-        bottom: 0;
-
+      font: 1.8em "Charm", cursive;
+      position: absolute;
+      margin: 0;
+      bottom: 10px;
+      color: #3d4160;
+      transition: 0.4s;
+      align-items: center;
+      justify-content: center;
+      bottom: 0;
     }
-
-
-
-
+  
     /*------HOVERS etc--------*/
-
+  
     #general-card:hover,
     #after-party-card:hover,
     #home-card:hover,
     #office-tech-card {
-        box-shadow: none;
+      box-shadow: none;
     }
-
-
+  
     .register-btn:hover,
     #sign-in:hover {
-        background-color: #FFC136;
+      background-color: #FFC136;
     }
-
-
-
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-
+  }
+  
+  /* iPads (portrait and landscape) ----------- */
+  
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     body,
     html {
-        height: 100%;
-        width: 100%;
-        background-color: #3d4160;
-        overflow: hidden;
-        margin: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #3d4160;
+      overflow: hidden;
+      margin: 0;
     }
-
+  
     #office-info-box,
     #home-info-box,
     .btn-wrap-desktop {
-        display: none;
+      display: none;
     }
-
-
+  
     .home-header-contents {
-        position: relative;
-        width: 100%;
-        height: 185px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      position: relative;
+      width: 100%;
+      height: 185px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-
+  
     .home-logo {
-        position: relative;
-        top: -15px;
-        cursor: pointer;
-        height: 70px;
-        width: 85px;
+      position: relative;
+      top: -15px;
+      cursor: pointer;
+      height: 70px;
+      width: 85px;
     }
-
+  
     .sub-blurb {
-        font: lighter 0.8em "Source Sans Pro", sans-serif;
-        position: absolute;
-        top: 100px;
-        color: #fff;
-        opacity: 0.7;
-        letter-spacing: 0.8px;
+      font: lighter 0.8em "Source Sans Pro", sans-serif;
+      position: absolute;
+      top: 100px;
+      color: #fff;
+      opacity: 0.7;
+      letter-spacing: 0.8px;
     }
-
-
+  
     ul.home-nav {
-        font: lighter 1.5em "Source Sans Pro", sans-serif;
-        position: absolute;
-        list-style: none;
-        bottom: 0;
-        margin: 0;
-        padding: 0;
-        display: none;
+      font: lighter 1.5em "Source Sans Pro", sans-serif;
+      position: absolute;
+      list-style: none;
+      bottom: 0;
+      margin: 0;
+      padding: 0;
+      display: none;
     }
-
+  
     li {
-        display: inline-block;
-        color: #fff;
-        cursor: pointer;
+      display: inline-block;
+      color: #fff;
+      cursor: pointer;
     }
-
+  
     .btn-wrap {
-        position: absolute;
-        bottom: 0;
-        z-index: 1000;
-        width: 100%;
-        height: 40px;
-        margin: 0;
+      position: absolute;
+      bottom: 0;
+      z-index: 1000;
+      width: 100%;
+      height: 40px;
+      margin: 0;
     }
-
-
-
+  
     div.register-btn {
-        font: bold 1.5em "Source Sans Pro", sans-serif;
-        background: #ff9843;
-        position: absolute;
-        right: 0;
-        width: 50%;
-        height: 100px;
-        bottom: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #fff;
-        z-index: 1;
-        cursor: pointer;
-        transition: 0.1s;
-
-
+      font: bold 1.5em "Source Sans Pro", sans-serif;
+      background: #ff9843;
+      position: absolute;
+      right: 0;
+      width: 50%;
+      height: 100px;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      z-index: 1;
+      cursor: pointer;
+      transition: 0.1s;
     }
-
+  
     #sign-in {
-        font: bold 1.5em "Source Sans Pro", sans-serif;
-        background: #ff9843;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 50%;
-        height: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #fff;
-        cursor: pointer;
-        transition: 0.1s;
-        z-index: 1;
-
-
+      font: bold 1.5em "Source Sans Pro", sans-serif;
+      background: #ff9843;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 50%;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      cursor: pointer;
+      transition: 0.1s;
+      z-index: 1;
     }
-
-
+  
     .socials-box {
-        position: absolute;
-        height: 50px;
-        width: 95px;
-        top: 0;
-        border-top-right-radius: 15px;
-        z-index: 100;
-        display: none;
+      position: absolute;
+      height: 50px;
+      width: 95px;
+      top: 0;
+      border-top-right-radius: 15px;
+      z-index: 100;
+      display: none;
     }
-
+  
     .fa-facebook-f {
-        position: relative;
-        font-size: 1.5em;
-        left: 15px;
-        top: 10px;
-        color: #ff9843;
-        cursor: pointer;
-        z-index: 100;
-        transition: 0.1s;
+      position: relative;
+      font-size: 1.5em;
+      left: 15px;
+      top: 10px;
+      color: #ff9843;
+      cursor: pointer;
+      z-index: 100;
+      transition: 0.1s;
     }
-
+  
     .fa-linkedin-in {
-        position: absolute;
-        font-size: 1.5em;
-        left: 40px;
-        top: 12px;
-        color: #ff9843;
-        cursor: pointer;
-        z-index: 100;
-        transition: 0.1s;
+      position: absolute;
+      font-size: 1.5em;
+      left: 40px;
+      top: 12px;
+      color: #ff9843;
+      cursor: pointer;
+      z-index: 100;
+      transition: 0.1s;
     }
-
+  
     /*--------MAIN SERVICES--------*/
-
+  
     #main-services-wrap {
-        position: relative;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
+      position: relative;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-
+  
     p.choose-service-text {
-        position: absolute;
-        font: bold 1.7em "Source Sans Pro", sans-serif;
-        top: -20px;
-        color: #ff9843;
-        letter-spacing: 0.5px;
-        display: none;
-
+      position: absolute;
+      font: bold 1.7em "Source Sans Pro", sans-serif;
+      top: -20px;
+      color: #ff9843;
+      letter-spacing: 0.5px;
+      display: none;
     }
-
+  
     .card-wrap {
-        position: relative;
-        height: 680px;
-        width: 350px;
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-        bottom: 100px;
+      position: relative;
+      height: 680px;
+      width: 350px;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      bottom: 100px;
     }
-
+  
     #home-card {
-        background: #3d4160;
-        border: 1px solid #ff9843;
-        position: absolute;
-        height: 200px;
-        width: 160px;
-        border-radius: 5px;
-        top: 00px;
-        left: 00px;
-        display: flex;
-        justify-content: center;
-        transition: 0.1s;
-        box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-            0 12.5px 10px rgba(0, 0, 0, 0.035),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-            0 100px 80px rgba(0, 0, 0, 0.07);
-
+      background: #3d4160;
+      border: 1px solid #ff9843;
+      position: absolute;
+      height: 200px;
+      width: 160px;
+      border-radius: 5px;
+      top: 00px;
+      left: 00px;
+      display: flex;
+      justify-content: center;
+      transition: 0.1s;
+      box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+              0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+              0 12.5px 10px rgba(0, 0, 0, 0.035),
+              0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+              0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+              0 100px 80px rgba(0, 0, 0, 0.07);
     }
-
-
+  
     #home-info-box {
-        position: absolute;
-        height: 200px;
-        width: 600px;
-        border: 2px solid #ff9843;
-        top: -325px;
-        right: -365px;
-        display: none;
+      position: absolute;
+      height: 200px;
+      width: 600px;
+      border: 2px solid #ff9843;
+      top: -325px;
+      right: -365px;
+      display: none;
     }
-
+  
     .home-card-title,
     .office-card-title,
     .after-party-title,
     .general-title {
-        font: normal 2em "Source Sans Pro", sans-serif;
-        position: absolute;
-        bottom: 60px;
-        color: #3d4160;
-        margin: 0;
-
-
+      font: normal 2em "Source Sans Pro", sans-serif;
+      position: absolute;
+      bottom: 60px;
+      color: #3d4160;
+      margin: 0;
     }
-
+  
     .home-card-title {
-        color: #ff9843;
+      color: #ff9843;
     }
-
-
+  
     .home-icon,
     .office-icon,
     .party-icon,
     .general-icon {
-        position: absolute;
-        top: 30px;
-        height: 65px;
+      position: absolute;
+      top: 30px;
+      height: 65px;
     }
-
+  
     #home-info-btn,
     #office-info-btn,
     #party-info-btn,
     #general-info-btn {
-        font: 1.8em "Charm", cursive;
-        position: absolute;
-        margin: 0;
-        bottom: 10px;
-        color: #3d4160;
-        align-items: center;
-        justify-content: center;
-        animation-duration: 2s;
-        transition: 0.4s;
-        z-index: 100;
-
-
+      font: 1.8em "Charm", cursive;
+      position: absolute;
+      margin: 0;
+      bottom: 10px;
+      color: #3d4160;
+      align-items: center;
+      justify-content: center;
+      animation-duration: 2s;
+      transition: 0.4s;
+      z-index: 100;
     }
-
+  
     #home-info-btn {
-        color: #3d4160;
+      color: #3d4160;
     }
-
+  
     .info-icon {
-        height: 25px;
+      height: 25px;
     }
-
+  
     #office-tech-card {
-        position: absolute;
-        height: 200px;
-        width: 160px;
-        background: #3d4160;
-        border-radius: 5px;
-        border: 1px solid #ff9843;
-        top: 0;
-        right: 0;
-        display: flex;
-        justify-content: center;
-        transition: 0.1s;
-        box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-            0 12.5px 10px rgba(0, 0, 0, 0.035),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-            0 100px 80px rgba(0, 0, 0, 0.07);
-
+      position: absolute;
+      height: 200px;
+      width: 160px;
+      background: #3d4160;
+      border-radius: 5px;
+      border: 1px solid #ff9843;
+      top: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      transition: 0.1s;
+      box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+              0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+              0 12.5px 10px rgba(0, 0, 0, 0.035),
+              0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+              0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+              0 100px 80px rgba(0, 0, 0, 0.07);
     }
-
+  
     #office-info-box {
-        position: absolute;
-        height: 200px;
-        width: 600px;
-        border: 2px solid #ff9843;
-        top: -320px;
-        right: -220px;
-        display: none;
+      position: absolute;
+      height: 200px;
+      width: 600px;
+      border: 2px solid #ff9843;
+      top: -320px;
+      right: -220px;
+      display: none;
     }
-
-
+  
     .office-card-title {
-        bottom: 60px;
-        color: #ff9843;
+      bottom: 60px;
+      color: #ff9843;
     }
-
+  
     #office-info-btn {
-        color: #ff9843;
-
+      color: #ff9843;
     }
-
+  
     #after-party-card {
-        background: #3d4160;
-        position: absolute;
-        height: 200px;
-        width: 160px;
-        border-radius: 5px;
-        border: 1px solid #ff9843;
-        top: 230px;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        transition: 0.1s;
-        box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-            0 12.5px 10px rgba(0, 0, 0, 0.035),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-            0 100px 80px rgba(0, 0, 0, 0.07);
-
+      background: #3d4160;
+      position: absolute;
+      height: 200px;
+      width: 160px;
+      border-radius: 5px;
+      border: 1px solid #ff9843;
+      top: 230px;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      transition: 0.1s;
+      box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+              0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+              0 12.5px 10px rgba(0, 0, 0, 0.035),
+              0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+              0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+              0 100px 80px rgba(0, 0, 0, 0.07);
     }
-
+  
     #party-info-box {
-        position: absolute;
-        height: 180px;
-        width: 600px;
-        border: 2px solid #ff9843;
-        top: -480px;
-        right: -365px;
-        display: none;
+      position: absolute;
+      height: 180px;
+      width: 600px;
+      border: 2px solid #ff9843;
+      top: -480px;
+      right: -365px;
+      display: none;
     }
-
-
+  
     .after-party-title {
-        bottom: 60px;
-        color: #ff9843;
-        margin: 0;
+      bottom: 60px;
+      color: #ff9843;
+      margin: 0;
     }
-
+  
     #party-info-btn {
-        color: #ff9843;
-
+      color: #ff9843;
     }
-
+  
     #general-card {
-        background: #3d4160;
-        border: 1px solid #ff9843;
-        position: absolute;
-        height: 200px;
-        width: 160px;
-        border-radius: 5px;
-        top: 230px;
-        right: 0;
-        display: flex;
-        justify-content: center;
-        transition: 0.1s;
-        box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-            0 12.5px 10px rgba(0, 0, 0, 0.035),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-            0 100px 80px rgba(0, 0, 0, 0.07);
-
+      background: #3d4160;
+      border: 1px solid #ff9843;
+      position: absolute;
+      height: 200px;
+      width: 160px;
+      border-radius: 5px;
+      top: 230px;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      transition: 0.1s;
+      box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+              0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+              0 12.5px 10px rgba(0, 0, 0, 0.035),
+              0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+              0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+              0 100px 80px rgba(0, 0, 0, 0.07);
     }
-
-
+  
     .general-title {
-        color: #ff9843;
-        margin: 0;
+      color: #ff9843;
+      margin: 0;
     }
-
+  
     #general-info-btn {
-        color: #3d4160;
-        transition: 0.4s;
-
+      color: #3d4160;
+      transition: 0.4s;
     }
-
+  
     #general-info-box {
-        position: absolute;
-        height: 180px;
-        width: 600px;
-        border: 2px solid #ff9843;
-        top: -480px;
-        right: -220px;
-        display: none;
+      position: absolute;
+      height: 180px;
+      width: 600px;
+      border: 2px solid #ff9843;
+      top: -480px;
+      right: -220px;
+      display: none;
     }
-
-
-
-
-
+  
     /*------HOVERS etc--------*/
-
+  
     #general-card:hover,
     #after-party-card:hover,
     #home-card:hover,
     #office-tech-card:hover {
-        box-shadow: none;
+      box-shadow: none;
     }
-
+  
     .register-btn:hover,
     #sign-in:hover {
-        background-color: #FFC136;
+      background-color: #FFC136;
     }
-
-
+  
     #home-info-btn:hover #home-info-box {
-        display: block;
+      display: block;
     }
-
+  
     #office-info-btn:hover #office-info-box {
-        display: block;
+      display: block;
     }
-
+  
     #party-info-btn:hover #party-info-box {
-        display: block;
+      display: block;
     }
-
+  
     #general-info-btn:hover #general-info-box {
-        display: block;
+      display: block;
     }
-
-
-}
-
-/* iPad Pro (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 1024px) {
-
+  }
+  
+  /* iPad Pro (portrait and landscape) ----------- */
+  
+  @media only screen and (min-device-width : 1024px) {
     body,
     html {
-        height: 100%;
-        width: 100%;
-        background-color: #3d4160;
-        overflow: hidden;
-        margin: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #3d4160;
+      overflow: hidden;
+      margin: 0;
     }
-
+  
     #office-info-box,
     #home-info-box,
     .btn-wrap-desktop {
-        display: none;
+      display: none;
     }
-
-
-
-
+  
     .home-header-contents {
-        position: relative;
-        width: 100%;
-        height: 185px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      position: relative;
+      width: 100%;
+      height: 185px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-
+  
     .home-logo {
-        position: relative;
-        top: -15px;
-        cursor: pointer;
-        height: 70px;
-        width: 85px;
+      position: relative;
+      top: -15px;
+      cursor: pointer;
+      height: 70px;
+      width: 85px;
     }
-
+  
     .sub-blurb {
-        font: lighter 0.8em "Source Sans Pro", sans-serif;
-        position: absolute;
-        top: 100px;
-        color: #fff;
-        opacity: 0.7;
-        letter-spacing: 0.8px;
+      font: lighter 0.8em "Source Sans Pro", sans-serif;
+      position: absolute;
+      top: 100px;
+      color: #fff;
+      opacity: 0.7;
+      letter-spacing: 0.8px;
     }
-
-
+  
     ul.home-nav {
-        font: lighter 1.5em "Source Sans Pro", sans-serif;
-        position: absolute;
-        list-style: none;
-        bottom: 0;
-        margin: 0;
-        padding: 0;
-        display: none;
+      font: lighter 1.5em "Source Sans Pro", sans-serif;
+      position: absolute;
+      list-style: none;
+      bottom: 0;
+      margin: 0;
+      padding: 0;
+      display: none;
     }
-
+  
     li {
-        display: inline-block;
-        color: #fff;
-        cursor: pointer;
+      display: inline-block;
+      color: #fff;
+      cursor: pointer;
     }
-
+  
     .btn-wrap {
-        position: absolute;
-        bottom: 0;
-        z-index: 1000;
-        width: 100%;
-        height: 40px;
-        margin: 0;
+      position: absolute;
+      bottom: 0;
+      z-index: 1000;
+      width: 100%;
+      height: 40px;
+      margin: 0;
     }
-
+  
     .register-btn {
-        font: bold 1.5em "Source Sans Pro", sans-serif;
-        background: #ff9843;
-        position: absolute;
-        right: 0;
-        width: 50%;
-        height: 100px;
-        bottom: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #fff;
-        cursor: pointer;
-        transition: 0.1s;
-
-
+      font: bold 1.5em "Source Sans Pro", sans-serif;
+      background: #ff9843;
+      position: absolute;
+      right: 0;
+      width: 50%;
+      height: 100px;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      cursor: pointer;
+      transition: 0.1s;
     }
-
+  
     #sign-in {
-        font: bold 1.5em "Source Sans Pro", sans-serif;
-        background: #ff9843;
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 50%;
-        height: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #fff;
-        cursor: pointer;
-        transition: 0.1s;
-        z-index: 1;
-
-
+      font: bold 1.5em "Source Sans Pro", sans-serif;
+      background: #ff9843;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 50%;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      cursor: pointer;
+      transition: 0.1s;
+      z-index: 1;
     }
-
-
+  
     .socials-box {
-        position: absolute;
-        height: 50px;
-        width: 95px;
-        top: 0;
-        border-top-right-radius: 15px;
-        z-index: 100;
-        display: none;
+      position: absolute;
+      height: 50px;
+      width: 95px;
+      top: 0;
+      border-top-right-radius: 15px;
+      z-index: 100;
+      display: none;
     }
-
+  
     .fa-facebook-f {
-        position: relative;
-        font-size: 1.5em;
-        left: 15px;
-        top: 10px;
-        color: #ff9843;
-        cursor: pointer;
-        z-index: 100;
-        transition: 0.1s;
+      position: relative;
+      font-size: 1.5em;
+      left: 15px;
+      top: 10px;
+      color: #ff9843;
+      cursor: pointer;
+      z-index: 100;
+      transition: 0.1s;
     }
-
+  
     .fa-linkedin-in {
-        position: absolute;
-        font-size: 1.5em;
-        left: 40px;
-        top: 12px;
-        color: #ff9843;
-        cursor: pointer;
-        z-index: 100;
-        transition: 0.1s;
+      position: absolute;
+      font-size: 1.5em;
+      left: 40px;
+      top: 12px;
+      color: #ff9843;
+      cursor: pointer;
+      z-index: 100;
+      transition: 0.1s;
     }
-
+  
     /*--------MAIN SERVICES--------*/
-
+  
     #main-services-wrap {
-        position: relative;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
+      position: relative;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-
+  
     p.choose-service-text {
-        position: absolute;
-        font: bold 1.7em "Source Sans Pro", sans-serif;
-        top: -20px;
-        color: #ff9843;
-        letter-spacing: 0.5px;
-        display: none;
-
+      position: absolute;
+      font: bold 1.7em "Source Sans Pro", sans-serif;
+      top: -20px;
+      color: #ff9843;
+      letter-spacing: 0.5px;
+      display: none;
     }
-
+  
     .card-wrap {
-        position: relative;
-        height: 800px;
-        width: 470px;
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-        bottom: 100px;
+      position: relative;
+      height: 800px;
+      width: 470px;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      bottom: 100px;
     }
-
-
+  
     #home-card,
     #office-tech-card,
     #after-party-card,
     #general-card {
-        position: absolute;
-        height: 270px;
-        width: 220px;
-        border-radius: 5px;
-        display: flex;
-        justify-content: center;
-        transition: 0.1s;
-        box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-            0 12.5px 10px rgba(0, 0, 0, 0.035),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-            0 100px 80px rgba(0, 0, 0, 0.07);
-
+      position: absolute;
+      height: 270px;
+      width: 220px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      transition: 0.1s;
+      box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+              0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+              0 12.5px 10px rgba(0, 0, 0, 0.035),
+              0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+              0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+              0 100px 80px rgba(0, 0, 0, 0.07);
     }
-
-
+  
     #home-card {
-        background: #3d4160;
-        border: 1px solid #ff9843;
-        top: -30px;
-        left: 0;
-
+      background: #3d4160;
+      border: 1px solid #ff9843;
+      top: -30px;
+      left: 0;
     }
-
+  
     #home-info-box {
-        position: absolute;
-        height: 200px;
-        width: 600px;
-        border: 2px solid #ff9843;
-        top: -325px;
-        right: -365px;
-        display: none;
+      position: absolute;
+      height: 200px;
+      width: 600px;
+      border: 2px solid #ff9843;
+      top: -325px;
+      right: -365px;
+      display: none;
     }
-
+  
     .home-card-title,
     .office-card-title,
     .after-party-title,
     .general-title {
-        font: normal 2em "Source Sans Pro", sans-serif;
-        position: absolute;
-        bottom: 85px;
-        color: #3d4160;
-        margin: 0;
-
+      font: normal 2em "Source Sans Pro", sans-serif;
+      position: absolute;
+      bottom: 85px;
+      color: #3d4160;
+      margin: 0;
     }
-
+  
     .home-card-title {
-        color: #ff9843;
+      color: #ff9843;
     }
-
-
+  
     .home-icon,
     .office-icon,
     .party-icon,
     .general-icon {
-        position: absolute;
-        top: 50px;
-        height: 83px;
+      position: absolute;
+      top: 50px;
+      height: 83px;
     }
-
+  
     #home-info-btn,
     #office-info-btn,
     #party-info-btn,
     #general-info-btn {
-        font: 1.8em "Charm", cursive;
-        position: absolute;
-        margin: 0;
-        bottom: 30px;
-        color: #3d4160;
-        align-items: center;
-        justify-content: center;
-        animation-duration: 2s;
-        transition: 0.4s;
-        z-index: 100;
-
-
+      font: 1.8em "Charm", cursive;
+      position: absolute;
+      margin: 0;
+      bottom: 30px;
+      color: #3d4160;
+      align-items: center;
+      justify-content: center;
+      animation-duration: 2s;
+      transition: 0.4s;
+      z-index: 100;
     }
-
+  
     #home-info-btn {
-        color: #3d4160;
+      color: #3d4160;
     }
-
+  
     .info-icon {
-        height: 30px;
+      height: 30px;
     }
-
+  
     #office-tech-card {
-        background: #3d4160;
-        border: 1px solid #ff9843;
-        top: -30px;
-        right: 0;
-
+      background: #3d4160;
+      border: 1px solid #ff9843;
+      top: -30px;
+      right: 0;
     }
-
+  
     #office-info-box {
-        position: absolute;
-        height: 200px;
-        width: 600px;
-        border: 2px solid #ff9843;
-        top: -320px;
-        right: -220px;
-        display: none;
+      position: absolute;
+      height: 200px;
+      width: 600px;
+      border: 2px solid #ff9843;
+      top: -320px;
+      right: -220px;
+      display: none;
     }
-
-
+  
     .office-card-title {
-        color: #ff9843;
+      color: #ff9843;
     }
-
+  
     #office-info-btn {
-        color: #ff9843;
-
+      color: #ff9843;
     }
-
+  
     #after-party-card {
-        background: #3d4160;
-        border: 1px solid #ff9843;
-        top: 260px;
-        left: 0;
-
+      background: #3d4160;
+      border: 1px solid #ff9843;
+      top: 260px;
+      left: 0;
     }
-
+  
     #party-info-box {
-        position: absolute;
-        height: 180px;
-        width: 600px;
-        border: 2px solid #ff9843;
-        top: -480px;
-        right: -365px;
-        display: none;
+      position: absolute;
+      height: 180px;
+      width: 600px;
+      border: 2px solid #ff9843;
+      top: -480px;
+      right: -365px;
+      display: none;
     }
-
-
+  
     .after-party-title {
-        color: #ff9843;
-        margin: 0;
+      color: #ff9843;
+      margin: 0;
     }
-
+  
     #party-info-btn {
-        color: #ff9843;
-
+      color: #ff9843;
     }
-
+  
     #general-card {
-        background-color: #3d4160;
-        border: 1px solid #ff9843;
-        top: 0;
-        right: 0;
-        top: 260px;
-
+      background-color: #3d4160;
+      border: 1px solid #ff9843;
+      top: 0;
+      right: 0;
+      top: 260px;
     }
-
+  
     .general-title {
-        color: #ff9843;
-        margin: 0;
+      color: #ff9843;
+      margin: 0;
     }
-
+  
     #general-info-btn {
-        color: #3d4160;
-        transition: 0.4s;
-
+      color: #3d4160;
+      transition: 0.4s;
     }
-
+  
     #general-info-box {
-        position: absolute;
-        height: 180px;
-        width: 600px;
-        border: 2px solid #ff9843;
-        top: -480px;
-        right: -220px;
-        display: none;
+      position: absolute;
+      height: 180px;
+      width: 600px;
+      border: 2px solid #ff9843;
+      top: -480px;
+      right: -220px;
+      display: none;
     }
-
-
+  
     /*------HOVERS etc--------*/
-
+  
     #general-card:hover,
     #after-party-card:hover,
     #home-card:hover,
     #office-tech-card:hover {
-        box-shadow: none;
+      box-shadow: none;
     }
-
+  
     .register-btn:hover,
     #sign-in:hover {
-        background-color: #FFC136;
+      background-color: #FFC136;
     }
-
-
+  
     #home-info-btn:hover #home-info-box {
-        display: block;
+      display: block;
     }
-
+  
     #office-info-btn:hover #office-info-box {
-        display: block;
+      display: block;
     }
-
+  
     #party-info-btn:hover #party-info-box {
-        display: block;
+      display: block;
     }
-
+  
     #general-info-btn:hover #general-info-box {
-        display: block;
+      display: block;
     }
-
-
-
-
-}
-
-/* Desktop Screen ----------- */
-@media only screen and (min-device-width : 1224px) {
-
+  }
+  
+  /* Desktop Screen ----------- */
+  
+  @media only screen and (min-device-width : 1224px) {
     body,
     html {
-        height: 100%;
-        width: 100%;
-        background-color: #3d4160;
-        overflow: hidden;
-        margin: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #3d4160;
+      overflow: hidden;
+      margin: 0;
     }
-
+  
     .home-header-contents {
-        position: relative;
-        width: 100%;
-        height: 185px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+      position: relative;
+      width: 100%;
+      height: 185px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-
+  
     .home-logo {
-        position: relative;
-        top: 10px;
-        cursor: pointer;
-        height: 126.25px;
-        width: 145.51px;
+      position: relative;
+      top: 10px;
+      cursor: pointer;
+      height: 126.25px;
+      width: 145.51px;
     }
-
+  
     .sub-blurb {
-        font: lighter 1.3em "Source Sans Pro", sans-serif;
-        position: absolute;
-        top: 135px;
-        color: #fff;
-        opacity: 0.7;
-        letter-spacing: 0.8px;
+      font: lighter 1.3em "Source Sans Pro", sans-serif;
+      position: absolute;
+      top: 135px;
+      color: #fff;
+      opacity: 0.7;
+      letter-spacing: 0.8px;
     }
-
-
+  
     ul.home-nav {
-        font: lighter 1.5em "Source Sans Pro", sans-serif;
-        position: absolute;
-        list-style: none;
-        top: 84px;
-        left: 65px;
-        margin: 0;
-        padding: 0;
-        display: block;
+      font: lighter 1.5em "Source Sans Pro", sans-serif;
+      position: absolute;
+      list-style: none;
+      top: 84px;
+      left: 65px;
+      margin: 0;
+      padding: 0;
+      display: block;
     }
-
+  
     li {
-        display: inline-block;
-        color: #fff;
-        cursor: pointer;
+      display: inline-block;
+      color: #fff;
+      cursor: pointer;
     }
-
+  
     .contact {
-        margin: 0px 50px 0px 50px;
+      margin: 0px 50px 0px 50px;
     }
-
+  
     .btn-wrap-desktop {
-        position: absolute;
-        width: 280px;
-        height: 50px;
-        right: 65px;
-        top: 84px;
-        display: flex;
-        justify-content: center;
+      position: absolute;
+      width: 280px;
+      height: 50px;
+      right: 65px;
+      top: 84px;
+      display: flex;
+      justify-content: center;
     }
-
+  
     .signin-desktop {
-        position: absolute;
-        color: #fff;
-        font: bold 1.4em "Source Sans Pro", sans-serif;
-        left: 0;
-        top: 0;
-        height: 45px;
-        width: 120px;
-        border: 2px solid #FFC136;
-        background-color: #3d4160;
-        border-radius: 3px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-            0 12.5px 10px rgba(0, 0, 0, 0.035),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-            0 100px 80px rgba(0, 0, 0, 0.07);
-
+      position: absolute;
+      color: #fff;
+      font: bold 1.4em "Source Sans Pro", sans-serif;
+      left: 0;
+      top: 0;
+      height: 45px;
+      width: 120px;
+      border: 2px solid #FFC136;
+      background-color: #3d4160;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+              0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+              0 12.5px 10px rgba(0, 0, 0, 0.035),
+              0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+              0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+              0 100px 80px rgba(0, 0, 0, 0.07);
     }
-
-
+  
     .register-btn-dekstop {
-        position: absolute;
-        height: 47px;
-        width: 120px;
-        right: 0;
-        border: 2px solid #ff9843;
-        background-color: #3d4160;
-        border-radius: 3px;
-        color: #fff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font: bold 1.4em "Source Sans Pro", sans-serif;
-        box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-            0 12.5px 10px rgba(0, 0, 0, 0.035),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-            0 100px 80px rgba(0, 0, 0, 0.07);
-
-
+      position: absolute;
+      height: 47px;
+      width: 120px;
+      right: 0;
+      border: 2px solid #ff9843;
+      background-color: #3d4160;
+      border-radius: 3px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font: bold 1.4em "Source Sans Pro", sans-serif;
+      box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+              0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+              0 12.5px 10px rgba(0, 0, 0, 0.035),
+              0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+              0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+              0 100px 80px rgba(0, 0, 0, 0.07);
     }
-
+  
     .btn-wrap {
-        display: none;
+      display: none;
     }
-
+  
     .register-btn {
-        display: none;
-
+      display: none;
     }
-
+  
     #sign-in {
-        display: none;
-
+      display: none;
     }
-
-
+  
     /*--------MAIN SERVICES--------*/
-
+  
     #main-services-wrap {
-        position: relative;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
+      position: relative;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-
+  
     p.choose-service-text {
-        position: absolute;
-        font: bold 1.7em "Source Sans Pro", sans-serif;
-        top: -20px;
-        color: #ff9843;
-        letter-spacing: 0.5px;
-        display: none;
-
+      position: absolute;
+      font: bold 1.7em "Source Sans Pro", sans-serif;
+      top: -20px;
+      color: #ff9843;
+      letter-spacing: 0.5px;
+      display: none;
     }
-
-
+  
     .card-wrap {
-        position: relative;
-        height: 800px;
-        width: 475px;
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-        top: 30px;
+      position: relative;
+      height: 800px;
+      width: 475px;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      top: 30px;
     }
-
-
-
+  
     #home-card,
     #office-tech-card,
     #after-party-card,
     #general-card {
-        position: absolute;
-        height: 200px;
-        width: 170px;
-        border-radius: 5px;
-        display: flex;
-        justify-content: center;
-        transition: 0.1s;
-        cursor: pointer;
-        box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.02),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.028),
-            0 12.5px 10px rgba(0, 0, 0, 0.035),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.042),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.05),
-            0 100px 80px rgba(0, 0, 0, 0.07);
+      position: absolute;
+      height: 200px;
+      width: 170px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      transition: 0.1s;
+      cursor: pointer;
+      box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+              0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+              0 12.5px 10px rgba(0, 0, 0, 0.035),
+              0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+              0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+              0 100px 80px rgba(0, 0, 0, 0.07);
     }
-
-
+  
     #home-card {
-        background-color: #3d4160;
-        border: 1px solid #ff9843;
-        top: 0;
-        left: 50px;
+      background-color: #3d4160;
+      border: 1px solid #ff9843;
+      top: 0;
+      left: 50px;
     }
-
+  
     #home-info-box {
-        position: absolute;
-        width: 480px;
-        height: 250px;
-        background-color: #2d3046;
-        border: none;
-        top: -95px;
-        left: -590px;
-        display: none;
-        box-shadow:
-            0 11px 8.7px rgba(0, 0, 0, 0.13),
-            0 26.5px 20.9px rgba(0, 0, 0, 0.095),
-            0 49.8px 39.3px rgba(0, 0, 0, 0.086),
-            0 88.9px 70.1px rgba(0, 0, 0, 0.073),
-            0 166.3px 131.2px rgba(0, 0, 0, 0.055),
-            0 398px 314px rgba(0, 0, 0, 0.03);
+      position: absolute;
+      width: 480px;
+      height: 250px;
+      background-color: #2d3046;
+      border: none;
+      top: -95px;
+      left: -590px;
+      display: none;
+      box-shadow: 0 11px 8.7px rgba(0, 0, 0, 0.13),
+              0 26.5px 20.9px rgba(0, 0, 0, 0.095),
+              0 49.8px 39.3px rgba(0, 0, 0, 0.086),
+              0 88.9px 70.1px rgba(0, 0, 0, 0.073),
+              0 166.3px 131.2px rgba(0, 0, 0, 0.055),
+              0 398px 314px rgba(0, 0, 0, 0.03);
     }
-
+  
     .homeService-infoBox-title {
-        position: absolute;
-        margin-left: 45px;
-        top: 25px;
-        color: #ff9843;
-        text-transform: uppercase;
-        letter-spacing: 11px;
-        font: bolder 0.8em "Source Sans Pro", sans-serif;
-
-
+      position: absolute;
+      margin-left: 45px;
+      top: 25px;
+      color: #ff9843;
+      text-transform: uppercase;
+      letter-spacing: 11px;
+      font: bolder 0.8em "Source Sans Pro", sans-serif;
     }
-
+  
     .home-InfoBoxBlurb {
-        position: absolute;
-        top: 87px;
-        width: 400px;
-        margin-left: 45px;
-        font: lighter 0.8em "Source Sans Pro", sans-serif;
-        color: #ff9843;
-
-
+      position: absolute;
+      top: 87px;
+      width: 400px;
+      margin-left: 45px;
+      font: lighter 0.8em "Source Sans Pro", sans-serif;
+      color: #ff9843;
     }
-
+  
     .sidebar {
-        position: relative;
-        height: 250px;
-        width: 10px;
-        background-color: #ff9843;
-        float: right;
+      position: relative;
+      height: 250px;
+      width: 10px;
+      background-color: #ff9843;
+      float: right;
     }
-
+  
     .linebar {
-        position: absolute;
-        width: 60%;
-        height: 1px;
-        background-color: #ff9843;
-        top: 95px;
-        left: 45px;
+      position: absolute;
+      width: 60%;
+      height: 1px;
+      background-color: #ff9843;
+      top: 95px;
+      left: 45px;
     }
-
+  
     .home-card-title {
-        font: normal 2em "Source Sans Pro", sans-serif;
-        position: absolute;
-        bottom: 55px;
-        color: #ff9843;
-        margin: 0;
+      font: normal 2em "Source Sans Pro", sans-serif;
+      position: absolute;
+      bottom: 55px;
+      color: #ff9843;
+      margin: 0;
     }
-
+  
     .home-icon,
     .office-icon,
     .party-icon,
     .general-icon {
-        position: absolute;
-        top: 35px;
-        height: 65px;
+      position: absolute;
+      top: 35px;
+      height: 65px;
     }
-
+  
     #home-info-btn {
-        position: absolute;
-        margin: 0;
-        bottom: 10px;
-        color: #3d4160;
-        align-items: center;
-        justify-content: center;
-        animation-duration: 2s;
-        transition: 2s;
-        display: block;
-        z-index: 1;
+      position: absolute;
+      margin: 0;
+      bottom: 10px;
+      color: #3d4160;
+      align-items: center;
+      justify-content: center;
+      animation-duration: 2s;
+      transition: 2s;
+      display: block;
+      z-index: 1;
     }
-
+  
     .info-icon {
-        height: 25px;
-
+      height: 25px;
     }
-
+  
     #office-tech-card {
-        background: #3d4160;
-        border: 1px solid #ff9843;
-        top: 0;
-        right: 50px;
-
-
+      background: #3d4160;
+      border: 1px solid #ff9843;
+      top: 0;
+      right: 50px;
     }
-
+  
     #office-info-box {
-        position: absolute;
-        width: 480px;
-        height: 250px;
-        background-color: #2d3046;
-        border: none;
-        top: -95px;
-        right: -590px;
-        display: none;
-        box-shadow:
-            0 11px 8.7px rgba(0, 0, 0, 0.13),
-            0 26.5px 20.9px rgba(0, 0, 0, 0.095),
-            0 49.8px 39.3px rgba(0, 0, 0, 0.086),
-            0 88.9px 70.1px rgba(0, 0, 0, 0.073),
-            0 166.3px 131.2px rgba(0, 0, 0, 0.055),
-            0 398px 314px rgba(0, 0, 0, 0.03);
+      position: absolute;
+      width: 480px;
+      height: 250px;
+      background-color: #2d3046;
+      border: none;
+      top: -95px;
+      right: -590px;
+      display: none;
+      box-shadow: 0 11px 8.7px rgba(0, 0, 0, 0.13),
+              0 26.5px 20.9px rgba(0, 0, 0, 0.095),
+              0 49.8px 39.3px rgba(0, 0, 0, 0.086),
+              0 88.9px 70.1px rgba(0, 0, 0, 0.073),
+              0 166.3px 131.2px rgba(0, 0, 0, 0.055),
+              0 398px 314px rgba(0, 0, 0, 0.03);
     }
-
+  
     .officeService-infoBox-title {
-        position: absolute;
-        margin-left: 45px;
-        top: 25px;
-        color: #ff9843;
-        text-transform: uppercase;
-        letter-spacing: 11px;
-        font: bolder 0.8em "Source Sans Pro", sans-serif;
-
+      position: absolute;
+      margin-left: 45px;
+      top: 25px;
+      color: #ff9843;
+      text-transform: uppercase;
+      letter-spacing: 11px;
+      font: bolder 0.8em "Source Sans Pro", sans-serif;
     }
-
+  
     .office-InfoBoxBlurb {
-        position: absolute;
-        top: 87px;
-        width: 400px;
-        margin-left: 45px;
-        font: lighter 0.8em "Source Sans Pro", sans-serif;
-        color: #ff9843;
-
-
+      position: absolute;
+      top: 87px;
+      width: 400px;
+      margin-left: 45px;
+      font: lighter 0.8em "Source Sans Pro", sans-serif;
+      color: #ff9843;
     }
-
-
-
-
+  
     .office-card-title {
-        font: normal 1.9em "Source Sans Pro", sans-serif;
-        position: absolute;
-        bottom: 55px;
-        color: #ff9843;
-        margin: 0;
+      font: normal 1.9em "Source Sans Pro", sans-serif;
+      position: absolute;
+      bottom: 55px;
+      color: #ff9843;
+      margin: 0;
     }
-
+  
     #office-info-btn {
-        font: 1.8em "Charm", cursive;
-        position: absolute;
-        margin: 0;
-        bottom: 10px;
-        color: #ff9843;
-        transition: 0.4s;
-        align-items: center;
-        justify-content: center;
-        z-index: 100;
-
+      font: 1.8em "Charm", cursive;
+      position: absolute;
+      margin: 0;
+      bottom: 10px;
+      color: #ff9843;
+      transition: 0.4s;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
     }
-
+  
     #after-party-card {
-        background: #3d4160;
-        border: 1px solid #ff9843;
-        top: 213px;
-        left: 50px;
-
+      background: #3d4160;
+      border: 1px solid #ff9843;
+      top: 213px;
+      left: 50px;
     }
-
+  
     #party-info-box {
-        position: absolute;
-        height: 200px;
-        width: 600px;
-        border: 2px solid #ff9843;
-        top: -615px;
-        right: -390px;
-        display: none;
+      position: absolute;
+      height: 200px;
+      width: 600px;
+      border: 2px solid #ff9843;
+      top: -615px;
+      right: -390px;
+      display: none;
     }
-
-
+  
     .after-party-title {
-        font: normal 1.9em "Source Sans Pro", sans-serif;
-        position: absolute;
-        bottom: 55px;
-        color: #ff9843;
-        margin: 0;
+      font: normal 1.9em "Source Sans Pro", sans-serif;
+      position: absolute;
+      bottom: 55px;
+      color: #ff9843;
+      margin: 0;
     }
-
+  
     #party-info-btn {
-        font: 1.8em "Charm", cursive;
-        position: absolute;
-        margin: 0;
-        bottom: 10px;
-        color: #ff9843;
-        transition: 0.4s;
-        align-items: center;
-        justify-content: center;
-
+      font: 1.8em "Charm", cursive;
+      position: absolute;
+      margin: 0;
+      bottom: 10px;
+      color: #ff9843;
+      transition: 0.4s;
+      align-items: center;
+      justify-content: center;
     }
-
+  
     #general-card {
-        background: #3d4160;
-        border: 1px solid #ff9843;
-        top: 213px;
-        right: 50px;
-
+      background: #3d4160;
+      border: 1px solid #ff9843;
+      top: 213px;
+      right: 50px;
     }
-
+  
     .general-title {
-        font: normal 1.9em "Source Sans Pro", sans-serif;
-        position: absolute;
-        bottom: 55px;
-        color: #ff9843;
-        margin: 0;
+      font: normal 1.9em "Source Sans Pro", sans-serif;
+      position: absolute;
+      bottom: 55px;
+      color: #ff9843;
+      margin: 0;
     }
-
+  
     #general-info-btn {
-        font: 1.8em "Charm", cursive;
-        position: absolute;
-        margin: 0;
-        bottom: 10px;
-        color: #3d4160;
-        transition: 0.4s;
-        align-items: center;
-        justify-content: center;
-
+      font: 1.8em "Charm", cursive;
+      position: absolute;
+      margin: 0;
+      bottom: 10px;
+      color: #3d4160;
+      transition: 0.4s;
+      align-items: center;
+      justify-content: center;
     }
-
+  
     #general-info-box {
-        position: absolute;
-        height: 200px;
-        width: 600px;
-        border: 2px solid #ff9843;
-        top: -615px;
-        right: -190px;
-        display: none;
+      position: absolute;
+      height: 200px;
+      width: 600px;
+      border: 2px solid #ff9843;
+      top: -615px;
+      right: -190px;
+      display: none;
     }
-
-
+  
     /*------HOVERS etc--------*/
-
+  
     #general-card:hover,
     #after-party-card:hover,
     #home-card:hover,
     #office-tech-card:hover {
-        border: 1px solid #FFC136;
+      border: 1px solid #FFC136;
     }
-
+  
     #general-card:active,
     #after-party-card:active,
     #home-card:active,
     #office-tech-card:active {
-        -webkit-box-shadow: inset 0px 0px 5px 8px rgba(0, 0, 0, 0.12);
-        -moz-box-shadow: inset 0px 0px 5px 8px rgba(0, 0, 0, 0.12);
-        box-shadow: inset 0px 0px 5px 8px rgba(0, 0, 0, 0.12);
-        border: 1px solid #ff9843;
+      -webkit-box-shadow: inset 0px 0px 5px 8px rgba(0, 0, 0, 0.12);
+      -moz-box-shadow: inset 0px 0px 5px 8px rgba(0, 0, 0, 0.12);
+      box-shadow: inset 0px 0px 5px 8px rgba(0, 0, 0, 0.12);
+      border: 1px solid #ff9843;
     }
-
+  
     .register-btn:hover,
     #sign-in:hover {
-        background-color: #FFC136;
+      background-color: #FFC136;
     }
-
-
+  
     #home-info-btn:hover #home-info-box {
-        display: block;
+      display: block;
     }
-
+  
     #office-info-btn:hover #office-info-box {
-        display: block;
+      display: block;
     }
-
+  
     #party-info-btn:hover #party-info-box {
-        display: block;
+      display: block;
     }
-
+  
     #general-info-btn:hover #general-info-box {
-        display: block;
+      display: block;
     }
-
+  
     .signin-desktop:hover {
-        border: 2px solid #ff9843;
-        box-shadow: none;
+      border: 2px solid #ff9843;
+      box-shadow: none;
     }
-
+  
     .signin-desktop:active {
-        -webkit-box-shadow: inset 0px 0px 5px 8px rgba(0, 0, 0, 0.12);
-        -moz-box-shadow: inset 0px 0px 5px 8px rgba(0, 0, 0, 0.12);
-        box-shadow: inset 0px 0px 5px 8px rgba(0, 0, 0, 0.12);
-        border: 2px solid #FFC136;
-
-
+      -webkit-box-shadow: inset 0px 0px 5px 8px rgba(0, 0, 0, 0.12);
+      -moz-box-shadow: inset 0px 0px 5px 8px rgba(0, 0, 0, 0.12);
+      box-shadow: inset 0px 0px 5px 8px rgba(0, 0, 0, 0.12);
+      border: 2px solid #FFC136;
     }
-
+  
     .register-btn-desktop:hover {
-        border: 2px solid #FFC136;
+      border: 2px solid #FFC136;
     }
-
+  
     .register-btn-desktop:active {
-        box-shadow: none;
-
+      box-shadow: none;
     }
-
+  
     .info-icon:hover {
-        transform: scaleZ(2);
+      transform: scaleZ(2);
     }
-
-
-
-}
-
+  }
