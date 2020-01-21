@@ -894,7 +894,6 @@
         align-items: center;
         justify-content: center;
         color: #fff;
-        z
         cursor: pointer;
         transition: 0.1s;
 
@@ -1196,7 +1195,7 @@
         display: block;
     }
 
-}
+
 
 /* Desktop Screen ----------- */
 @media only screen and (min-device-width : 1224px) {
@@ -1709,6 +1708,6 @@
 
 
 
-
+}
 
 }
