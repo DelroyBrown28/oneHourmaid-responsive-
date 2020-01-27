@@ -345,14 +345,13 @@
       box-shadow: none;
     }
   
-    .register-btn:hover,
+    #register-btn:hover,
     #sign-in:hover {
       background-color: #FFC136;
     }
   }
   
   /* iPads (portrait and landscape) ----------- */
-  
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     body,
     html {
@@ -420,7 +419,7 @@
       margin: 0;
     }
   
-    div.register-btn {
+    div#register-btn {
       font: bold 1.5em "Source Sans Pro", sans-serif;
       background: #ff9843;
       position: absolute;
@@ -721,7 +720,7 @@
       box-shadow: none;
     }
   
-    .register-btn:hover,
+    #register-btn:hover,
     #sign-in:hover {
       background-color: #FFC136;
     }
@@ -744,7 +743,6 @@
   }
   
   /* iPad Pro (portrait and landscape) ----------- */
-  
   @media only screen and (min-device-width : 1024px) {
     body,
     html {
@@ -812,7 +810,7 @@
       margin: 0;
     }
   
-    .register-btn {
+    #register-btn {
       font: bold 1.5em "Source Sans Pro", sans-serif;
       background: #ff9843;
       position: absolute;
@@ -1078,7 +1076,7 @@
       box-shadow: none;
     }
   
-    .register-btn:hover,
+    #register-btn:hover,
     #sign-in:hover {
       background-color: #FFC136;
     }
@@ -1101,7 +1099,6 @@
   }
   
   /* Desktop Screen ----------- */
-  
   @media only screen and (min-device-width : 1224px) {
     body,
     html {
@@ -1167,6 +1164,7 @@
       top: 84px;
       display: flex;
       justify-content: center;
+      
     }
   
     .signin-desktop {
@@ -1190,6 +1188,29 @@
               0 41.8px 33.4px rgba(0, 0, 0, 0.05),
               0 100px 80px rgba(0, 0, 0, 0.07);
     }
+
+    .registerBtnDesktop {
+      position: absolute;
+      color: #fff;
+      height: 45px;
+      width: 120px;
+      border: 2px solid #ff9843;
+      background-color: #3d4160;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font: bold 1.4em "Source Sans Pro", sans-serif;
+      right: 0;
+      cursor: pointer;
+      box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+      0 12.5px 10px rgba(0, 0, 0, 0.035),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+      0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+      0 100px 80px rgba(0, 0, 0, 0.07);
+
+
+    }
   
     .register-btn-dekstop {
       position: absolute;
@@ -1204,6 +1225,7 @@
       align-items: center;
       justify-content: center;
       font: bold 1.4em "Source Sans Pro", sans-serif;
+      z-index: 100;
       box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
               0 6.7px 5.3px rgba(0, 0, 0, 0.028),
               0 12.5px 10px rgba(0, 0, 0, 0.035),
@@ -1216,7 +1238,7 @@
       display: none;
     }
   
-    .register-btn {
+    #register-btn {
       display: none;
     }
   
@@ -1521,7 +1543,7 @@
       border: 1px solid #ff9843;
     }
   
-    .register-btn:hover,
+    #register-btn:hover,
     #sign-in:hover {
       background-color: #FFC136;
     }
@@ -1554,12 +1576,16 @@
       border: 2px solid #FFC136;
     }
   
-    .register-btn-desktop:hover {
+    .registerBtnDesktop:hover {
       border: 2px solid #FFC136;
+      box-shadow: none;
     }
   
-    .register-btn-desktop:active {
-      box-shadow: none;
+    .registerBtnDesktop:active {
+      -webkit-box-shadow: inset 0px 0px 5px 8px rgba(0, 0, 0, 0.12);
+      -moz-box-shadow: inset 0px 0px 5px 8px rgba(0, 0, 0, 0.12);
+      box-shadow: inset 0px 0px 5px 8px rgba(0, 0, 0, 0.12);
+      border: 2px solid #ff9843;
     }
   
     .info-icon:hover {
